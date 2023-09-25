@@ -26,7 +26,8 @@ nav {
 .nav-droite h2 {
     color: white;
     font-size: 23px;
-    margin-right: 25%;
+    margin: 20px;
+    white-space: nowrap;
 }
 
 .dropdown {
