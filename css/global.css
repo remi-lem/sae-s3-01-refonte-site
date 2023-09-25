@@ -1,0 +1,66 @@
+/*----------
+    NAVBAR
+----------*/
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.nav-droite {
+    display: inherit;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.nav-droite h2 {
+    color: white;
+    font-size: 23px;
+    margin-right: 25%;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown summary {
+    list-style: none;
+}
+
+.dropdown > summary::-webkit-details-marker {
+    display: none;
+}
+
+.dropdown ul {
+    position: absolute;
+    padding: 10px 0;
+    width: fit-content;
+    box-sizing: border-box;
+    z-index: 2;
+    background: whitesmoke;
+    border-radius: 6px;
+    list-style: none;
+}
+
+.dropdown ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown ul li a:link, .dropdown ul li a:visited {
+    display: inline-block;
+    padding: 10px 0.8rem;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
