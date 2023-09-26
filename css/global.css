@@ -73,3 +73,14 @@ nav {
     box-sizing: border-box;
     text-decoration: none;
 }
+
+/*----------
+RechercheBAR
+----------*/
+#searchbar{
+    margin-left: 75%;
+    margin-top: -5%;
+    padding:10px;
+    border-radius: 100px;
+    width: 95%;
+}
