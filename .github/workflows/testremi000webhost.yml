@@ -1,0 +1,26 @@
+name: Deploy to 000webhost
+
+on:
+  push:
+    branches:
+      - main # Change this to your main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4' # Changer la version de PHP selon vos besoins
+
+    - name: Install FTP Client
+      run: sudo apt-get install -y lftp
+
+    - name: Deploy to 000webhost
+      run: |
+        lftp -e "set ftp:ssl-allow no; open -u ${{ secrets.FTP_USERNAME }} -p ${{ secrets.FTP_PASSWORD }} ftp.000webhost.com; mirror -R -e . /public_html; bye"
