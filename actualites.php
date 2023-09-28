@@ -1,32 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Actualités CASBT</title>
-    <link href="css/global.css" rel="stylesheet" type="text/css">
-    <link href="css/autresPages.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap/bootstrap.bundle.min.js"></script>
-</head>
+<?php
+$TITLE = "Actualités CASBT";
+$URLSTYLE = "css/others.css";
+require_once("include/header.php");
+?>
 <body>
-
-<div class="navigation">
-    <nav>
-        <div class="nav-gauche">
-            <a href="index.html"><img src="images/logo.png" alt="Logo CASBT" width="140" height="113"></a>
-        </div>
-        <div class="nav-droite">
-            <a href="demarches.html"><h2>Mes Démarches</h2></a>
-            <a href="actualites.html"><h2>Actualités</h2></a>
-            <a href="communes.html"><h2>Communes</h2></a>
-            <a href="vie_quotidienne.html"><h2>Vie Quotidienne</h2></a>
-            <a href="foire_question.html"><h2>Foire aux Questions</h2></a>
-            <h2><input id="searchbar" type="text"
-                       name="search" placeholder="Besoin d'une recherche..."></h2>
-        </div>
-    </nav>
-</div>
-
 <section class="articles">
     <article>
         <div class="article-wrapper">
