@@ -7,4 +7,6 @@ $URLSTYLE = "css/others.css";
 <div class="accueil">
 </div>
 </body>
-</html>
+<?php
+require_once("include/footer.php");
+?>
