@@ -3,7 +3,7 @@
 ----------*/
 
 body{
-    background-image: url('../images/fond-accueil.png'); /* Chemin de votre image de fond */
+    background-image: url('../images/fond-accueil.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,10 @@ body{
 
 .navigation {
     position: sticky;
+    width: 100%;
     top: 0;
+    margin:0;
+    padding:0;
 }
 
 nav {
@@ -73,9 +76,6 @@ nav {
     text-decoration: none;
 }
 
-/*----------
-RechercheBAR
-----------*/
 #searchbar{
     margin-top: -5%;
     padding:10px;
