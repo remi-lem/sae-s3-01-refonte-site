@@ -1,6 +1,6 @@
 <?php
-$TITLE = "Actualités CASBT";
-$URLSTYLE = "css/others.css";
+$titre = "Actualités CASBT";
+$urlstyle = "css/others.css";
 require_once("include/header.php");
 ?>
 <body>

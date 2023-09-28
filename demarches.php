@@ -1,6 +1,6 @@
 <?php
-    $TITLE = "Mes Démarches CASBT";
-$URLSTYLE = "css/others.css";
+    $titre = "Mes Démarches CASBT";
+$urlstyle = "css/others.css";
     require_once("include/header.php");
 ?>
 <body>

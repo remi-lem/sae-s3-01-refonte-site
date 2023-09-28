@@ -1,10 +1,14 @@
+<?php
+global $titre;
+global $urlstyle;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $TITLE; ?></title>
+    <title><?php echo $titre; ?></title>
     <link href="css/global.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo $URLSTYLE; ?>" rel="stylesheet">
+    <link href="<?php echo $urlstyle; ?>" rel="stylesheet">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="images/logo_favicon.jpg">
