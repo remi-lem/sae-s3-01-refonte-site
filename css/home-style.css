@@ -1,3 +1,60 @@
-nav {
-    position: relative;
+.accueil {
+    height: 0vh;
 }
+
+/*--------------Actualités------------*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+.actualites {
+    height: 100vh;
+    padding-top: 20%;
+    background-color: red;
+}
+
+.conteneur {
+    width: 80vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-40vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: black;
+}
+
+.article {
+    width: 120vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.horizontalBloc {
+    display: flex;
+    flex-direction: row;
+    width: 200vw;
+    height: 80vh;
+    background-color: #0a53be;
+    transform: rotate(90deg) translateY(-40vh);
+    transform-origin: top left;
+}
+
+.un {
+    background-color: #0a53be;
+}
+
+.deux {
+    background-color: rebeccapurple;
+}
+
+.trois {
+    background-color: #1b7b0f;
+}
+
+.quatre {
+    background-color: yellow;
+}
+

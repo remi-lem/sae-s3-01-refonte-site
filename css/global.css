@@ -1,10 +1,7 @@
 /*----------
     NAVBAR
 ----------*/
-*, body {
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-image: url('../images/fond-accueil.png'); /* Chemin de votre image de fond */
     background-size: cover;
@@ -19,6 +16,7 @@ body{
 }
 
 nav {
+    width: 100%; /*faire mieux*/
     display: flex;
     flex-direction: row;
     align-items: center;
