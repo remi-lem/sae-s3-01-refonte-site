@@ -14,4 +14,4 @@ jobs:
 
     - name: Deploy to 000webhost
       run: |
-        lftp -e "set ftp:ssl-allow no; open -u ${{ secrets.FTP_USERNAME }} -p ${{ secrets.FTP_PASSWORD }} ftp.000webhost.com; mirror -R -e . /public_html; bye"
+        lftp -e "set ftp:ssl-allow no; open -u saerefontedesite -p SLt!eM@D5&jb8kZE ftp.000webhost.com; mirror -R -e . /public_html; bye"
