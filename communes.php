@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mes Démarches CASBT</title>
+    <title>Nos Communes Membres CASBT</title>
     <link href="css/global.css" rel="stylesheet" type="text/css">
     <link href="css/home-style.css" rel="stylesheet">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
         </div>
         <div class="nav-droite">
             <a href="demarches.html"><h2>Mes Démarches</h2></a>
-            <a href="actualites.html"><h2>Actualités</h2></a>
+            <a href="actualites.php"><h2>Actualités</h2></a>
             <a href="communes.html"><h2>Communes</h2></a>
             <a href="vie_quotidienne.html"><h2>Vie Quotidienne</h2></a>
             <a href="foire_question.html"><h2>Foire aux Questions</h2></a>

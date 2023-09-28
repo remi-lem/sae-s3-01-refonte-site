@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Nos Communes Membres CASBT</title>
+    <title>$TITLE</title>
     <link href="css/global.css" rel="stylesheet" type="text/css">
     <link href="css/home-style.css" rel="stylesheet">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +27,3 @@
         </div>
     </nav>
 </div>
-<div class="accueil">
-</div>
-</body>
