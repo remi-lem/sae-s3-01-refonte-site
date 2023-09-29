@@ -91,6 +91,7 @@ body{
 }
 
 footer p{
+    position: absolute;
     background-color: blue;
     bottom: 0;
 }
