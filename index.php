@@ -8,6 +8,10 @@ require_once("include/header.php");
 <div class="accueil">
 </div>
 
+<div class="demarches">
+
+</div>
+
 <div class="actualites">
     <h1 id="titreActus">Les dernières actus</h1>
     <div class="conteneur">
