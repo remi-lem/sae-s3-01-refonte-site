@@ -15,7 +15,7 @@ global $urlstyle;
 
     <nav class="navigation">
         <div class="nav-gauche">
-            <a href="index.php"><img src="images/logo.png" alt="Logo CASBT" width="140" height="113"></a>
+            <a href="index.php"><img src="images/logo.png" alt="Logo CASBT" width="216" height="117"></a>
         </div>
 
         <div class="nav-droite">

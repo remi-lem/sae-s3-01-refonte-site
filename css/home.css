@@ -4,11 +4,24 @@
 }
 
 .accueil {
-    height: 80vh;
+    height: 70vh;
 }
+
+.accueil h1 {
+    color : white;
+    padding-top:10%;
+    text-align: center;
+}
+
 .demarches {
-    height: 100vh;
+    height: 70vh;
     background-color: yellowgreen;
+}
+
+.demarches h2 {
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 /*--------------Actualités------------*/
@@ -116,10 +129,7 @@
 .carte:nth-child(8):before {
     background-image: url("../images/actualites/mardi-gras-gagnant.jpg");
 }
-.carte:nth-child(9):before {
-    background-color: red;
-    /*background-image: url("../images/actualites/crocodile.jpg");*/
-}
+
 
 .contenu {
     position: relative;
