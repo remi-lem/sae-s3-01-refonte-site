@@ -106,13 +106,13 @@
 }
 
 .carte:nth-child(1):before {
-    background-image: url("../images/actualites/tempete-philippe.jpg");
+    background-image: url("../images/actualites/enquete-medicaments.jpg");
 }
 .carte:nth-child(2):before {
-    background-image: url("../images/actualites/augmentation-prix-electricite.jpeg");
+    background-image: url("../images/actualites/tempete-philippe.jpg");
 }
 .carte:nth-child(3):before {
-    background-image: url("../images/actualites/campagne-vaccination-papillomavirus.jpg");
+    background-image: url("../images/actualites/augmentation-prix-electricite.jpeg");
 }
 .carte:nth-child(4):before {
     background-image: url("../images/actualites/eau-non-potable.jpg");
