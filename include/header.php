@@ -17,13 +17,61 @@ global $urlstyle;
         <div class="nav-gauche">
             <a href="index.php"><img src="images/logo.png" alt="Logo CASBT" width="140" height="113"></a>
         </div>
+
         <div class="nav-droite">
-            <a href="demarches.php"><h2>Mes Démarches</h2></a>
-            <a href="actualites.php"><h2>Actualités</h2></a>
-            <a href="communes.php"><h2>Communes</h2></a>
-            <a href="vie_quotidienne.php"><h2>Vie Quotidienne</h2></a>
-            <a href="foire_question.php"><h2>Foire aux Questions</h2></a>
-            <h2><label for="searchbar"></label><input id="searchbar" type="text" name="search" placeholder="Besoin d'une recherche..."></h2>
+            <ul>
+                <li><a href="demarches.php">Mes Démarches</a>
+                    <ul>
+                        <li><a href="#">Orientations et offres d'emploi</a></li>
+                        <li><a href="#">Modifier mes coordonnées</a></li>
+                        <li><a href="#">Mes abonnements</a>
+                            <ul>
+                                <li><a href="#">Mon eau</a></li>
+                                <li><a href="#">Ma facture</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Mes tarifs</a></li>
+                    </ul>
+                </li>
+                <li><a href="actualites.php">Actualités</a>
+                    <ul>
+                        <li><a href="#">Événements</a></li>
+                    </ul>
+                </li>
+                <li><a href="communes.php">Communes</a>
+                    <ul>
+                        <li><a href="#">Maps</a></li>
+                        <li><a href="#">Les élus</a></li>
+                        <li><a href="#">Environnement</a>
+                            <ul>
+                                <li><a href="#">Déchets</a></li>
+                                <li><a href="#">Énergie</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="vie_quotidienne.php">Vie Quotidienne</a>
+                    <ul>
+                        <li><a href="#">Les Transports</a>
+                            <ul>
+                                <li><a href="#">Réseaux</a></li>
+                                <li><a href="#">Scolaire</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Complexe sportifs</a></li>
+                        <li><a href="#">Tourisme</a></li>
+                        <li><a href="#">Culture</a>
+                            <ul>
+                                <li><a href="#">Médiathèque</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="foire_question.php">FAQ</a></li>
+            </ul>
+            <!--
+            <input id="searchbar" type="text" name="search" placeholder="Besoin d'une recherche...">
+            -->
         </div>
     </nav>
 </head>

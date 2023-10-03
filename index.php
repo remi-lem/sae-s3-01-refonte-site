@@ -9,7 +9,6 @@ require_once("include/header.php");
 </div>
 
 <div class="demarches">
-
 </div>
 
 <div class="actualites">
