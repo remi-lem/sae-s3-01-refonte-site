@@ -10,119 +10,30 @@ body {
     min-height: 100vh;
 }
 
-.articles {
-    display: flex;
-    flex-wrap: nowrap;
-    max-width: 80%;
-    margin-inline: auto;
-    padding-inline: 24px;
-    gap: 24px;
-    overflow: scroll;
-}
-
 article {
-    --img-scale: 1.001;
-    --couleur-titre: black;
-    --link-icon-translate: -20px;
-    --link-icon-opacity: 0;
-    width: 50%;
-    position: relative;
-    border-radius: 16px;
-    background: #fff;
-    transform-origin: center;
-    transition: all 0.4s ease-in-out;
-    overflow: hidden;
-}
-
-article a::after {
-    position: absolute;
-    inset-block: 0;
-    inset-inline: 0;
-    cursor: pointer;
-    content: "";
-}
-
-
-article h2 {
-    margin-bottom:18px;
-    font-size: 1.9rem;
-    color: var(--couleur-titre);
-    transition: color 0.3s ease-out;
-}
-
-figure {
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    overflow: hidden;
+    width: 80%;
+    height: 34vh;
+    background-color: white;
+    border: 1px darkgray solid;
 }
 
 article img {
-    max-width: 105%;
-    transform-origin: center;
-    transform: scale(var(--img-scale));
-    transition: transform 0.4s ease-in-out;
+    float: left;
+    object-fit: cover;
 }
 
-.article-body {
-    padding: 24px;
+
+.texte {
+    margin-left: 2%;
 }
 
-article a {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    color: green;
+.texte h2 {
+    font-size: 50px;
 }
 
-article a:focus {
-    outline: 1px dotted green;
+.texte p {
+    font-size: 15px;
 }
 
-article a .icon {
-    min-width: 24px;
-    width: 24px;
-    height: 24px;
-    margin-left: 5px;
-    transform: translateX(var(--link-icon-translate));
-    opacity: var(--link-icon-opacity);
-    transition: all 0.3s;
-}
 
-/* using the has() relational pseudo selector to update our custom properties */
-article:has(:hover, :focus) {
-    --img-scale: 1.1;
-    --couleur-titre: #1b7b0f;
-    --link-icon-translate: 0;
-    --link-icon-opacity: 1;
-}
 
-@container card (min-width: 380px) {
-    .article-wrapper {
-        display: flex;
-        gap: 16px;
-    }
-    .article-body {
-        padding-left: 0;
-    }
-    figure {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    figure img {
-        height: 100%;
-        aspect-ratio: 1;
-        object-fit: cover;
-    }
-}
-
-.sr-only:not(:focus):not(:active) {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}

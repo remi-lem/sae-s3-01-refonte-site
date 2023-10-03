@@ -44,15 +44,16 @@
     display: flex;
     flex-direction: row;
     width: 200vw;
-    height: 100vh;
+    height: 50vh;
     transform: rotate(90deg) translateY(-40vh);
     transform-origin: top left;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .carte {
     position: relative;
-    width: 20vw;
+    width: 60vw;
+    height: 60px;
     display: flex;
     align-items: flex-end;
     overflow: hidden;
@@ -91,16 +92,32 @@
 }
 
 .carte:nth-child(1):before {
-    background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-image: url("../images/actualites/tempete-philippe.jpg");
 }
 .carte:nth-child(2):before {
-    background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-image: url("../images/actualites/augmentation-prix-electricite.jpeg");
 }
 .carte:nth-child(3):before {
-    background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-image: url("../images/actualites/campagne-vaccination-papillomavirus.jpg");
 }
 .carte:nth-child(4):before {
-    background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-image: url("../images/actualites/eau-non-potable.jpg");
+}
+.carte:nth-child(5):before {
+    background-image: url("../images/actualites/gendarmerie.jpeg");
+}
+.carte:nth-child(6):before {
+    background-image: url("../images/actualites/semaine-bleue.jpg");
+}
+.carte:nth-child(7):before {
+    background-image: url("../images/actualites/conseil-secu-onu.jpg");
+}
+.carte:nth-child(8):before {
+    background-image: url("../images/actualites/mardi-gras-gagnant.jpg");
+}
+.carte:nth-child(9):before {
+    background-color: red;
+    /*background-image: url("../images/actualites/crocodile.jpg");*/
 }
 
 .contenu {
@@ -123,25 +140,6 @@
     font-size: 1.125rem;
     font-style: italic;
     line-height: 1.35;
-}
-.btn {
-    cursor: pointer;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 0.65rem;
-    font-weight: bold;
-    letter-spacing: 0.025rem;
-    text-transform: uppercase;
-    color: white;
-    background-color: black;
-    border: none;
-}
-.btn:hover {
-    background-color: #0d0d0d;
-}
-.btn:focus {
-    outline: 1px dashed yellow;
-    outline-offset: 3px;
 }
 @media (hover: hover) and (min-width: 600px) {
     .carte:after {
