@@ -5,6 +5,7 @@ require_once("include/header.php");
 ?>
 <body>
 <div class="accueil">
+    
 </div>
 </body>
 <?php

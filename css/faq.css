@@ -1,0 +1,29 @@
+#formContactFAQ {
+    color: white;
+    width: 70%;
+}
+
+#titleFormContactFAQ, #titleFAQ{
+    color: white;
+
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#contenuFAQ h1 {
+    font-size: 7rem;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.accordion, #formContactFAQ {
+    margin-left: 3%;
+}
+
+#contenuFAQ {
+    background-color: rgb(0, 0, 10, 0.45);
+    margin: 2%;
+    padding: 4%;
+}

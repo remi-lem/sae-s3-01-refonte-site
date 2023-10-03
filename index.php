@@ -12,7 +12,7 @@ require_once("include/header.php");
 </div>
 
 <div class="actualites">
-    <h1 id="titreActus">Les dernières actus</h1>
+    <h1 id="titreActus">Les dernières actualitées</h1>
     <div class="conteneur">
         <div class="horizontalBloc">
             <div class="carte">
