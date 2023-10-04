@@ -18,7 +18,7 @@ require_once("include/header.php");
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    Pour régler votre facture d'eau, Les Eaux d’Aime met à votre disposition plusieurs moyens de paiement.
+                    Pour régler votre facture d'eau, Les Eaux d’Aime mettent à votre disposition plusieurs moyens de paiement.
                     <ul>
                         <li>Le plus simple pour vous est de payer par <strong>prélèvement mensuel</strong> ou à chaque
                             facture pour être sûr de ne pas laisser passer l'échéance.</li>
@@ -63,7 +63,7 @@ require_once("include/header.php");
                     aux règlements de service et aux prescriptions techniques du service des Eaux.
                     <br>
                     Le Service des Eaux établira alors un devis précisant les travaux qui seront pris en charge par le
-                    Service des Eaux qui précisera notamment les modalités de réalisation de ces travaux, les obligations
+                    Service des Eaux qui spécifiera notamment les modalités de réalisation de ces travaux, les obligations
                     du pétitionnaire et la limite de prestation du Service des Eaux.
                     <br>
                     Dans tous les cas, tous les travaux mandatés directement par l’abonné devront être réalisés par une
@@ -74,7 +74,8 @@ require_once("include/header.php");
                     délai d’exécution des travaux, sous réserve de l’obtention préalable de l’ensemble des autorisations nécessaires.
                     <br>
                     La mise en service du branchement est effectuée par les agents du service des Eaux, seuls habilités
-                    à manœuvrer les robinets de prise en charge sur la conduite de distribution.                </div>
+                    à manœuvrer les robinets de prise en charge sur la conduite de distribution.
+                </div>
             </div>
         </div>
     </div>
@@ -86,11 +87,11 @@ require_once("include/header.php");
 
     <div class="mb-3">
         <label for="formFAQMail" class="form-label">Adresse e-mail (pour vous recontacter)</label>
-        <input type="email" class="form-control" id="formFAQMail" placeholder="nom@mail.com">
+        <input type="email" class="form-control" id="formFAQMail" placeholder="nom@mail.com" required>
     </div>
     <div class="mb-3">
         <label for="formFAQMess" class="form-label">Votre question :</label>
-        <textarea class="form-control" id="formFAQMess" rows="3"></textarea>
+        <textarea class="form-control" id="formFAQMess" rows="3" required></textarea>
     </div>
     <div class="col-auto">
         <button type="submit" class="btn btn-primary mb-3">Envoyer le message</button>

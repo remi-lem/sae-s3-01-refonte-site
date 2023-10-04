@@ -34,7 +34,7 @@
     padding-top: 20%;
 }
 
-#titreActus{
+#titreActus {
     width: fit-content;
     position: relative;
     top:-20vh;
@@ -118,7 +118,7 @@
     background-image: url("../images/actualites/eau-non-potable.jpg");
 }
 .carte:nth-child(5):before {
-    background-image: url("../images/actualites/gendarmerie.jpeg");
+    background-image: url("../images/actualites/brigade-gendarmerie.jpeg");
 }
 .carte:nth-child(6):before {
     background-image: url("../images/actualites/semaine-bleue.jpg");

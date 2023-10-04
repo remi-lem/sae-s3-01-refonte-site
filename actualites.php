@@ -22,8 +22,8 @@ require_once("include/header.php");
     <article>
         <img src="images/actualites/campagne-vaccination-papillomavirus.jpg" alt="Campagne Vaccination Papillomavirus">
         <div class="texte">
-            <h2>La campagne pour la vaccination des élèves de 5ème contre le papillomavirus débute ce lundi</h2>
-            <p>À partir de cette semaine, l'Education Nationale se préoccupe à nouveau de vaccination mais dans un cadre très particulier : Certains élèves, particulièrement ceux en classe de 5ème, pourront se faire vacciner au sein de leur établissement scolaire contre le HPV (Papilloma Virus Humains)</p>
+            <h2>La campagne pour la vaccination des élèves de 5ᵉ contre le papillomavirus débute ce lundi</h2>
+            <p>À partir de cette semaine, l'Education Nationale se préoccupe à nouveau de vaccination, mais dans un cadre très particulier : Certains élèves, particulièrement ceux en classe de 5ᵉ, pourront se faire vacciner au sein de leur établissement scolaire contre le HPV (Papilloma Virus Humains)</p>
         </div>
     </article>
     <article>
@@ -34,10 +34,10 @@ require_once("include/header.php");
         </div>
     </article>
     <article>
-        <img src="images/actualites/gendarmerie.jpeg" alt="Nouvelle Brigade">
+        <img src="images/actualites/brigade-gendarmerie.jpeg" alt="Nouvelle Brigade">
         <div class="texte">
             <h2>Emmanuel Macron annonce la création de trois nouvelles brigades de gendarmerie en Guadeloupe</h2>
-            <p>Le président de la République a dévoilé lundi dans le Lot-et-Garonne la carte des 238 nouvelles brigades de gendarmerie qui verront le jour d'ici 2027, soit davantage que les 200 promises avant sa réélection, dont la plupart seront des camions mobiles. La Guadeloupe se voit dotée de trois nouvelles brigades.</p>
+            <p>Le président de la République a dévoilé lundi dans le Lot-et-Garonne la carte des 238 nouvelles brigades de gendarmerie qui verront le jour d'ici à 2027, soit davantage que les 200 promises avant sa réélection, dont la plupart seront des camions mobiles. La Guadeloupe se voit dotée de trois nouvelles brigades.</p>
         </div>
     </article>
 </section>

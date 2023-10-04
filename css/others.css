@@ -4,33 +4,28 @@
     box-sizing: border-box;
 }
 
-body {
+/*body {
     font-size: 1.2rem;
     line-height: 1.6rem;
     min-height: 100vh;
-}
+}*/
 
 article {
     width: 80%;
     height: 34vh;
     background-color: white;
-    border: 1px darkgray solid;
+    margin-bottom: 5%;
+
 }
 
 article img {
+    width: fit-content;
+    height: fit-content;
     float: left;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
 .texte {
     margin-left: 2%;
-}
-
-.texte h2 {
-    font-size: 50px;
-}
-
-.texte p {
-    font-size: 15px;
 }
