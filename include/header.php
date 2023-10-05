@@ -7,20 +7,20 @@ global $urlstyle;
 <head>
     <meta charset="UTF-8">
     <title><?php echo $titre; ?></title>
-    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="css/global.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $urlstyle; ?>" rel="stylesheet">
-    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
-    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="../images/logo_favicon.jpg">
 
     <nav class="navigation">
         <div class="nav-gauche">
-            <a href="../index.php"><img src="../images/logo.png" alt="Logo CASBT" width="216" height="117"></a>
+            <a href="index.php"><img src="../images/logo.png" alt="Logo CASBT" width="216" height="117"></a>
         </div>
 
         <div class="nav-droite">
             <ul>
-                <li><a href="../demarches.php">Mes Démarches</a>
+                <li><a href="demarches.php">Mes Démarches</a>
                     <ul>
                         <li><a href="#">Orientations et offres d'emploi</a></li>
                         <li><a href="#">Modifier mes coordonnées</a></li>
@@ -33,12 +33,12 @@ global $urlstyle;
                         <li><a href="#">Mes tarifs</a></li>
                     </ul>
                 </li>
-                <li><a href="../actualites.php">Actualités</a>
+                <li><a href="actualites.php">Actualités</a>
                     <ul>
                         <li><a href="#">Événements</a></li>
                     </ul>
                 </li>
-                <li><a href="../communes.php">Communes</a>
+                <li><a href="communes.php">Communes</a>
                     <ul>
                         <li><a href="#">Maps</a></li>
                         <li><a href="#">Les élus</a></li>
@@ -50,7 +50,7 @@ global $urlstyle;
                         </li>
                     </ul>
                 </li>
-                <li><a href="../vie_quotidienne.php">Vie Quotidienne</a>
+                <li><a href="vie_quotidienne.php">Vie Quotidienne</a>
                     <ul>
                         <li><a href="#">Les Transports</a>
                             <ul>
@@ -67,7 +67,7 @@ global $urlstyle;
                         </li>
                     </ul>
                 </li>
-                <li><a href="../foire_question.php">FAQ</a></li>
+                <li><a href="foire_question.php">FAQ</a></li>
             </ul>
             <!--
             <input id="searchbar" type="text" name="search" placeholder="Besoin d'une recherche...">
