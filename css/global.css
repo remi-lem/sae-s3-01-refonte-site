@@ -60,7 +60,7 @@ nav {
     align-items: center;
     background: rgb(0, 0, 0, 0.6);
     backdrop-filter: blur(2px);
-    z-index: 20;
+    z-index: 1500;
 }
 .nav-droite {
     display: inherit;

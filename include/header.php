@@ -1,4 +1,10 @@
 <?php
+// -------------------------------------------------------------
+// ATTENTION : ne PAS mettre ../ avant les images sur ce fichier
+// -------------------------------------------------------------
+?>
+
+<?php
 global $titre;
 global $urlstyle;
 ?>
@@ -10,6 +16,8 @@ global $urlstyle;
     <link href="css/global.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $urlstyle; ?>" rel="stylesheet">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="../images/logo_favicon.jpg">
 

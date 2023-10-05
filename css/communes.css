@@ -1,0 +1,9 @@
+#conteneurCarteCommunes {
+    display: flex;
+    justify-content: center;
+}
+
+#carteCommunes {
+    width: 800px;
+    height: 600px;
+}

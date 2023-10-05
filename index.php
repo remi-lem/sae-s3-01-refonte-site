@@ -5,7 +5,7 @@ require_once("include/header.php");
 ?>
 <body>
 <div class="accueil">
-    <h1>Bienvenue sur le site de la communauté d'agglomération grand sud caraïbes !</h1>
+    <h1>Bienvenue sur le site de la communauté d'agglomération grand sud caraïbe !</h1>
 </div>
 
 <div class="demarches">
@@ -48,8 +48,8 @@ require_once("include/header.php");
             </div>
             <div class="carte">
                 <div class="contenu">
-                    <h2 class="title">Oui 1</h2>
-                    <p class="texte">Seriously, straight up, just blast off into outer space today</p>
+                    <h2 class="title">Semaine Bleue</h2>
+                    <p class="texte">Quand les personnes âgées délaissent les tâches administratives.</p>
                 </div>
             </div>
             <div class="carte">
