@@ -34,9 +34,6 @@ global $urlstyle;
                     </ul>
                 </li>
                 <li><a href="actualites.php">Actualités</a>
-                    <ul>
-                        <li><a href="#">Événements</a></li>
-                    </ul>
                 </li>
                 <li><a href="communes.php">Communes</a>
                     <ul>
