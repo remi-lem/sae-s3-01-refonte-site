@@ -54,14 +54,14 @@ require_once("include/header.php");
             </div>
             <div class="carte">
                 <div class="contenu">
-                    <h2 class="title">Oui 2</h2>
-                    <p class="texte">Seriously, straight up, just blast off into outer space today</p>
+                    <h2 class="title">Conseil de sécurité de l'ONU</h2>
+                    <p class="texte">Feu vert à une force internationale en Haïti.</p>
                 </div>
             </div>
             <div class="carte">
                 <div class="contenu">
-                    <h2 class="title">Oui 3</h2>
-                    <p class="texte">Seriously, straight up, just blast off into outer space today</p>
+                    <h2 class="title">Grande Parade du Mardi Gras</h2>
+                    <p class="texte">Kasika déchu, suite à une requête de Magma.</p>
                 </div>
             </div>
         </div>
