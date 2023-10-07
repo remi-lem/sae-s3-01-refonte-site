@@ -1,7 +1,7 @@
 <?php
-// -------------------------------------------------------------
-// ATTENTION : ne PAS mettre ../ avant les images sur ce fichier
-// -------------------------------------------------------------
+// -------------------------------------------------------------------
+// ATTENTION : ne PAS mettre ../ avant les images/liens sur ce fichier
+// -------------------------------------------------------------------
 ?>
 
 <?php
@@ -75,7 +75,7 @@ global $urlstyle;
                 <li><a href="foire_question.php">FAQ</a></li>
             </ul>
             <!--
-            <input id="searchbar" type="text" name="search" placeholder="Besoin d'une recherche...">
+            <input id="searchbar" type="text" name="search" placeholder="Rechercher">
             -->
         </div>
     </nav>

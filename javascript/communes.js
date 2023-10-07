@@ -1,26 +1,23 @@
-// Fichier carte.js
-// Code JavaScript pour créer la carte Leaflet et charger les données GeoJSON
+let carte = L.map('carteCommunes', {zoomControl:false, minZoom:"11", maxZoom:"11", dragging:false, doubleClickZoom:false, keyboard:false}).setView([16.0191, -61.6572], 11); // Coordonnées initiales et niveau de zoom
 
-// Créez une carte Leaflet
-var carte = L.map('carteCommunes').setView([16.0191, -61.6572], 11); // Coordonnées initiales et niveau de zoom
-
-// Ajoutez une couche de fond OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(carte);
 
-fetch('json/communes.json')
-    .then(function(response) {
+fetch("../json/communes.json")
+    .then(function (response) {
         return response.json();
     })
-    .then(function(data) {
-        // Ajoutez les données GeoJSON à la carte
-        L.geoJSON(data).addTo(carte);
+    .then(function (data) {
+        var communesLayer = L.geoJSON(data).addTo(carte);
+        communesLayer.bindPopup(function (layer) {
+            return layer.feature.properties.Nom;
+        });
+    })
+    .catch(function (error) {
+        console.error('Erreur lors du chargement des données GeoJSON :', error);
     });
 
-/*
-var geojson;
-geojson = L.geoJson('json/communes.json');
 function highlightFeature(e) {
     var layer = e.target;
 
@@ -35,6 +32,12 @@ function highlightFeature(e) {
 }
 
 function resetHighlight(e) {
-    geojson.resetStyle(e.target);
+    carte.resetStyle(e.target);
 }
-*/
+
+function onEachFeature(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+    });
+}

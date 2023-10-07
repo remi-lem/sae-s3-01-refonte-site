@@ -5,9 +5,9 @@ require_once("include/header.php");
 ?>
 
 <body>
-    <div class="demarches-containeur">
+    <div class="demarches-conteneur">
         <h1>Mes démarches</h1>
-        <div class="container">
+        <div class="conteneur">
             <div class="demarches">
                 <h2>Recherche de Travail</h2>
                 <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">

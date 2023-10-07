@@ -15,10 +15,10 @@
         <br>
 
         <a href="https://twitter.com/grandsudcaraibe"><img src="images/footer/twitter.png" alt="Twitter"></a>
-        <a href="https://fr-fr.facebook.com/CA.GrandSudCaraibe/"><img src="images/footer/facebook.png" width="33" height="62"></a>
-        <a href="https://gp.linkedin.com/in/grand-sud-caraïbe"><img src="images/footer/linkedin.png"></a>
-        <a href="https://www.instagram.com/cagrandsudcaraibe/"><img src="images/footer/insta.png"></a>
-        <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/youtube.png"></a>
+        <a href="https://fr-fr.facebook.com/CA.GrandSudCaraibe/"><img src="images/footer/facebook.png" alt="Facebook" width="33" height="62"></a>
+        <a href="https://gp.linkedin.com/in/grand-sud-caraïbe"><img src="images/footer/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/cagrandsudcaraibe/"><img src="images/footer/insta.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/youtube.png" alt="Youtube"></a>
     </div>
 </footer>
 </html>
