@@ -33,7 +33,7 @@ global $urlstyle;
                 <li><a href="demarches.php">Mes Démarches</a>
                     <ul>
                         <li><a href="demarches.php#orientation-conteneur">Orientations et offres d'emploi</a></li>
-                        <li><a href="demarches.php#abonnement-conteneur">Mes abonnements</a>
+                        <li><a href="demarches.php#abonnement-conteneur">Mes abonnements</a></li>
                         <li><a href="#">Modifier mes coordonnées</a></li>
                         <li><a href="#">Mes tarifs</a></li>
                     </ul>
@@ -42,7 +42,7 @@ global $urlstyle;
                 </li>
                 <li><a href="communes.php">Communes</a>
                     <ul>
-                        <li><a href="#">Maps</a></li>
+                        <li><a href="#">Carte</a></li>
                         <li><a href="#">Les élus</a></li>
                         <li><a href="#">Environnement</a>
                         </li>

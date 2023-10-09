@@ -94,7 +94,7 @@ RESTE
 ************/
 
 body{
-    background-image: url('../images/fond-accueil.png');
+    background-image: url('../images/fond-accueil.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
