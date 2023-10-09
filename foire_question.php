@@ -1,9 +1,8 @@
 <?php
-$titre = "FAQ CASBT";
+$titre = "Foire aux questions  | CAGSC";
 $urlstyle = "css/faq.css";
 require_once("include/header.php");
 ?>
-<body>
 <div id="contenuFAQ">
     <h1>Foire aux questions</h1>
 <div id="foireAuxQuestions" data-bs-theme="dark">
@@ -100,7 +99,6 @@ require_once("include/header.php");
 </div>
 
 </div>
-</body>
 <?php
 require_once("include/footer.php");
 ?>

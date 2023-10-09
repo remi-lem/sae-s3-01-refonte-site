@@ -21,4 +21,5 @@
         <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/youtube.png" alt="Youtube"></a>
     </div>
 </footer>
+</body>
 </html>

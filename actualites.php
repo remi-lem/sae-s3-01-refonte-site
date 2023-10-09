@@ -1,9 +1,8 @@
 <?php
-$titre = "Actualités CASBT";
+$titre = "Actualités | CAGSC";
 $urlstyle = "css/actualites.css";
 require_once("include/header.php");
 ?>
-<body>
 <section>
     <h1>Dernières actualités</h1>
     <article id="1">
@@ -64,7 +63,6 @@ require_once("include/header.php");
     </article>
 </section>
 
-</body>
 <?php
 require_once("include/footer.php");
 ?>

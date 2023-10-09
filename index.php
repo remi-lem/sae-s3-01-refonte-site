@@ -1,9 +1,8 @@
 <?php
-$titre = "Accueil CASBT";
+$titre = "Accueil | CAGSC";
 $urlstyle = "css/home.css";
 require_once("include/header.php");
 ?>
-<body>
 <div class="accueil">
     <h1>Bienvenue sur le site de la communauté d'agglomération grand sud caraïbe !</h1>
 </div>
@@ -14,7 +13,7 @@ require_once("include/header.php");
 
 <div class="actualites">
     <h1 id="titreActus">Les dernières actualitées</h1>
-    <div class="conteneur">
+    <div class="conteneur-actus">
         <div class="horizontalBloc">
             <div class="carte">
                 <div class="contenu">
@@ -67,7 +66,6 @@ require_once("include/header.php");
         </div>
     </div>
 </div>
-</body>
 <?php
 require_once("include/footer.php");
 ?>
