@@ -7,6 +7,7 @@ require_once("include/header.php");
     <h1>Foire aux questions</h1>
 <div id="foireAuxQuestions" data-bs-theme="dark">
     <h2 id="titleFAQ">Questions fréquentes</h2>
+    <!--TODO mettre plus de questions-->
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header">

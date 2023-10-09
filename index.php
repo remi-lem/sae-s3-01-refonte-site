@@ -11,7 +11,7 @@ require_once("include/header.php");
     <h1>Mes démarches</h1>
     <div class="conteneur">
         <div class="demarches">
-            //TODO : mettre plus de démarches
+            <!--TODO : mettre plus de démarches-->
             <h2>Recherche de Travail</h2>
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
                 <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="251" height="201">

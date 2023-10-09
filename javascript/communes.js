@@ -1,3 +1,5 @@
+/*TODO a corriger*/
+
 let carte = L.map('carteCommunes', {zoomControl:false, minZoom:"11", maxZoom:"11", dragging:false, doubleClickZoom:false, keyboard:false}).setView([16.0191, -61.6572], 11); // Coordonnées initiales et niveau de zoom
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -9,17 +11,18 @@ fetch("../json/communes.json")
         return response.json();
     })
     .then(function (data) {
-        var communesLayer = L.geoJSON(data).addTo(carte);
+        let communesLayer = L.geoJSON(data).addTo(carte);
         communesLayer.bindPopup(function (layer) {
             return layer.feature.properties.Nom;
         });
+
     })
     .catch(function (error) {
         console.error('Erreur lors du chargement des données GeoJSON :', error);
     });
 
 function highlightFeature(e) {
-    var layer = e.target;
+    let layer = e.target;
 
     layer.setStyle({
         weight: 5,
@@ -29,10 +32,13 @@ function highlightFeature(e) {
     });
 
     layer.bringToFront();
+
+    info.update(layer.feature.properties);
 }
 
 function resetHighlight(e) {
     carte.resetStyle(e.target);
+    info.update();
 }
 
 function onEachFeature(feature, layer) {
@@ -41,3 +47,21 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight,
     });
 }
+
+let info = L.control();
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (props) {
+    console.log(props);//TODO
+    this._div.innerHTML = '<h4>Informations</h4>' +  (props ?
+        '<b>' + props.Nom + '</b><br />Maire : ' + props.Maire + '<sup>2</sup>'
+        : 'Sélectionnez une commune');
+};
+
+info.addTo(carte);
