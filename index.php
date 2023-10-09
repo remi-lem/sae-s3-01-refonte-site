@@ -4,7 +4,7 @@ $urlstyle = "css/home.css";
 require_once("include/header.php");
 ?>
 <div class="accueil">
-    <h1>Bienvenue sur le site de la communauté d'agglomération grand sud caraïbe !</h1>
+    <h1>Bienvenue sur le site de la Communauté d'Agglomération Grand Sud Caraïbe !</h1>
 </div>
 
 <div class="demarches-conteneur">

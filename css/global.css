@@ -20,7 +20,7 @@
 .navigation a {
     text-decoration: none;
     color: white;
-    font-size: 200%;
+    font-size: 1.5em;
     font-weight: bold;
 }
 /*sous-menus */
@@ -72,6 +72,10 @@ nav {
     font-size: 23px;
     margin: 20px;
     white-space: nowrap;
+}
+.nav-gauche img {
+    width: 180px;
+    height: 98px;
 }
 /* a faire après
 #searchbar{
