@@ -29,8 +29,7 @@ global $urlstyle;
 
         <div class="nav-droite">
             <ul>
-
-                <li><a href="demarches.php">Mes Démarches</a>
+                <li class="active"><a href="demarches.php">Mes Démarches</a>
                     <ul>
                         <li><a href="demarches.php#orientation-conteneur">Orientations et offres d'emploi</a></li>
                         <li><a href="demarches.php#abonnement-conteneur">Mes abonnements</a></li>
@@ -40,7 +39,7 @@ global $urlstyle;
                 </li>
                 <li><a href="actualites.php">Actualités</a>
                 </li>
-                <li><a href="communes.php">Communes</a>
+                <li class="active"><a href="communes.php">Communes</a>
                     <ul>
                         <li><a href="#">Carte</a></li>
                         <li><a href="#">Les élus</a></li>
@@ -48,7 +47,9 @@ global $urlstyle;
                         </li>
                     </ul>
                 </li>
-                <li><a href="vie_quotidienne.php">Vie Quotidienne</a>
+                <li class="active">
+                    <a href="vie_quotidienne.php" data-toggle="dropdown" role="button"
+                                      aria-haspopup="true" aria-expanded="false">Vie Quotidienne</a>
                     <ul>
                         <li><a href="#">Les Transports</a></li>
                         <li><a href="#">Complexes sportifs</a></li>

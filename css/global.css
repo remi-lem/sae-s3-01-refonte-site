@@ -6,6 +6,34 @@
     width: 100%;
     top: 0;
 }
+
+nav {
+    width: 100%; /*TODO : faire mieux*/
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background: rgb(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 1500;
+}
+
+.nav-droite {
+    display: inherit;
+    justify-content: space-between;
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transition : all 0.3s ease-out;
+    transition : all 0.3s ease-out;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.nav-gauche img {
+    width: 180px;
+    height: 98px;
+}
+
 .navigation ul {
     list-style: none;
 }
@@ -13,8 +41,6 @@
 .navigation li {
     display: inline-flex;
     position: relative;
-    margin-right: 100px;
-    white-space: pre;
 }
 
 .navigation a {
@@ -29,7 +55,6 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background: black;
     border-radius: 6px;
     z-index: 1;
     margin-left: 0;
@@ -38,44 +63,10 @@
 
 .navigation ul li:hover > ul {
     display: block;
-    margin-left: 0;
-    margin-right: 0;
 }
 
-.navigation ul ul li:hover {
-    background-color: grey;
-    margin-left: 0;
-    margin-right: 0;
-}
-.navigation ul ul ul {
-    top: 0;
-    left: 50%;
-    margin-left: 0;
-    margin-right: 0;
-}
-nav {
-    width: 100%; /*faire mieux*/
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: rgb(0, 0, 0, 0.6);
-    backdrop-filter: blur(2px);
-    z-index: 1500;
-}
-.nav-droite {
-    display: inherit;
-    justify-content: flex-start;
-    margin-left: 5%;
-}
-.nav-droite h2 {
-    color: black;
-    font-size: 23px;
-    margin: 20px;
-    white-space: nowrap;
-}
-.nav-gauche img {
-    width: 180px;
-    height: 98px;
+.navigation ul li ul {
+    width: 100%;
 }
 /* a faire après
 #searchbar{
@@ -88,6 +79,51 @@ nav {
     min-width: max-content;
 }
 */
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li a {
+    color: white !important;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
+
+.nav-item:hover .nav-link{
+    color: #8167a9 !important;
+}
+.nav-item.active .nav-link{
+    color: #777 !important;
+}
+.navigation li a {
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
+}
+.navigation li:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: #8167a9;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+.navigation li:hover:after {
+    bottom: 0;
+    opacity: 1;
+}
+.navigation li.active:hover:after{
+    opacity: 0;
+}
+.navigation li{
+    position: relative;
+    transition: all 200ms linear;
+}
+
 
 /************
 RESTE
