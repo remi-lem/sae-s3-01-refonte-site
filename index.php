@@ -7,8 +7,22 @@ require_once("include/header.php");
     <h1>Bienvenue sur le site de la communauté d'agglomération grand sud caraïbe !</h1>
 </div>
 
-<div class="demarches">
-    <h2>Mes démarches</h2>
+<div class="demarches-conteneur">
+    <h1>Mes démarches</h1>
+    <div class="conteneur">
+        <div class="demarches">
+            <h2>Recherche de Travail</h2>
+            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
+                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="251" height="201">
+            </a>
+        </div>
+        <div class="demarches">
+            <h2>Autre Démarche</h2>
+            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
+                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="251" height="201">
+            </a>
+        </div>
+    </div>
 </div>
 
 <div class="actualites">
