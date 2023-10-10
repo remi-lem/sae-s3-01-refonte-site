@@ -27,7 +27,7 @@ require_once("include/header.php");
 </div>
 
 <div class="actualites">
-    <h1 id="titreActus">Les dernières actualitées</h1>
+    <h1 id="titreActus">Les dernières actualités</h1>
     <div class="conteneur-actus">
         <div class="horizontalBloc">
             <div class="carte" onclick="window.location = ('actualites.php#1')">
