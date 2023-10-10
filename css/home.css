@@ -20,6 +20,15 @@
     background-color: white;
 }
 
+#titreDemarches {
+    width: fit-content;
+    position: relative;
+    left:10vh;
+    margin-bottom: 10%;
+    color: black;
+    font-size: 65px;
+}
+
 .conteneur {
     display: flex;
     flex-direction: row;
@@ -36,11 +45,6 @@
 }
 .demarches h2{
     color: black;
-}
-.demarches-conteneur h1{
-    margin-block: 2%;
-    color: black;
-    text-align: center;
 }
 
 .demarches a {
@@ -103,7 +107,6 @@
     overflow-x: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    /*background-color: red;*/
 }
 
 .horizontalBloc {

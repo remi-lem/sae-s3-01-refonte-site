@@ -8,7 +8,7 @@ require_once("include/header.php");
 </div>
 
 <div class="demarches-conteneur">
-    <h1>Mes démarches</h1>
+    <h1 id="titreDemarches">Mes démarches</h1>
     <div class="conteneur">
         <div class="demarches">
             <!--TODO : mettre plus de démarches-->
@@ -30,49 +30,49 @@ require_once("include/header.php");
     <h1 id="titreActus">Les dernières actualitées</h1>
     <div class="conteneur-actus">
         <div class="horizontalBloc">
-            <div class="carte">
+            <div class="carte" onclick="window.location = ('actualites.php#1')">
                 <div class="contenu">
                     <h2 class="title">Résultat de l'enquête médicamenteuse</h2>
                     <p class="texte">Les résultats tant attendus sont enfin là !</p>
                 </div>
             </div>
             <div class="carte">
-                <div class="contenu">
+                <div class="contenu" onclick="window.location = ('actualites.php#2')">
                     <h2 class="title">Tempête Philippe</h2>
                     <p class="texte">Des averses de forte intensité et de gros orages en perspective.</p>
                 </div>
             </div>
             <div class="carte">
-                <div class="contenu">
+                <div class="contenu" onclick="window.location = ('actualites.php#3')">
                     <h2 class="title">Augmentation du prix de l’électricité</h2>
                     <p class="texte">La région Guadeloupe octroie 220€ aux foyers modestes.</p>
                 </div>
             </div>
             <div class="carte">
-                <div class="contenu">
+                <div class="contenu" onclick="window.location = ('actualites.php#4')">
                     <h2 class="title">Eau interdite à la consommation</h2>
                     <p class="texte">Interdite à la consommation à Sainte-Anne, Saint-François et La Désirade.</p>
                 </div>
             </div>
             <div class="carte">
-                <div class="contenu">
+                <div class="contenu" onclick="window.location = ('actualites.php#5')">
                     <h2 class="title">Trois nouvelles brigades de gendarmerie</h2>
                     <p class="texte">Emmanuel Macron annonce la création de trois nouvelles brigades de gendarmerie.</p>
                 </div>
             </div>
-            <div class="carte">
+            <div class="carte" onclick="window.location = ('actualites.php#6')">
                 <div class="contenu">
                     <h2 class="title">Semaine Bleue</h2>
                     <p class="texte">Quand les personnes âgées délaissent les tâches administratives.</p>
                 </div>
             </div>
-            <div class="carte">
+            <div class="carte" onclick="window.location = ('actualites.php#7')">
                 <div class="contenu">
                     <h2 class="title">Conseil de sécurité de l'ONU</h2>
                     <p class="texte">Feu vert à une force internationale en Haïti.</p>
                 </div>
             </div>
-            <div class="carte">
+            <div class="carte" onclick="window.location = ('actualites.php#8')">
                 <div class="contenu">
                     <h2 class="title">Grande Parade du Mardi Gras</h2>
                     <p class="texte">Kasika déchu, suite à une requête de Magma.</p>
