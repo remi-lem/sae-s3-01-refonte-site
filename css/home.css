@@ -16,7 +16,7 @@
 /*--------------Démarches------------*/
 
 .demarches-conteneur {
-    height: 90vh;
+    height: 500px;
     background-color: white;
 }
 
@@ -24,7 +24,7 @@
     width: fit-content;
     position: relative;
     left:10vh;
-    margin-bottom: 10%;
+    margin-bottom: 50px;
     color: black;
     font-size: 65px;
 }

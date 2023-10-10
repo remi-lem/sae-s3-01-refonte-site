@@ -5,7 +5,7 @@ require_once("include/header.php");
 ?>
 <div id="contenuFAQ">
     <h1>Foire aux questions</h1>
-<div id="foireAuxQuestions" data-bs-theme="dark">
+<div id="foireAuxQuestions">
     <h2 id="titleFAQ">Questions fréquentes</h2>
     <!--TODO mettre plus de questions-->
     <div class="accordion" id="accordionExample">
@@ -83,7 +83,7 @@ require_once("include/header.php");
 <div id="titleFormContactFAQ">
     <h2>Vous n'avez pas la réponse à votre question ? Envoyez-la nous par e-mail !</h2>
 </div>
-<div id="formContactFAQ" data-bs-theme="dark">
+<div id="formContactFAQ">
 
     <div class="mb-3">
         <label for="formFAQMail" class="form-label">Adresse e-mail (pour vous recontacter)</label>
