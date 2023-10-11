@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.cluster029.hosting.ovh.net
         username: remilek
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.OVH_FTP_PASSW }}
