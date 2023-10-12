@@ -147,3 +147,12 @@ footer{
     color: white;
     font-size: 1.2rem;
 }
+
+footer #divFooterCertifs {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #divFooterCertifs img {
+    margin: 5px;
+}
