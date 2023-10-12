@@ -40,12 +40,13 @@ global $urlstyle;
                 <li><a href="actualites.php">Actualités</a>
                 </li>
                 <li><a href="communes.php">Communes</a>
+                    <!-- TODO : a enlever ?
                     <ul>
                         <li><a href="#">Carte</a></li>
                         <li><a href="#">Les élus</a></li>
                         <li><a href="#">Environnement</a>
                         </li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li>
                     <a href="vie_quotidienne.php" data-toggle="dropdown" role="button"
