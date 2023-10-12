@@ -52,8 +52,8 @@ global $urlstyle;
                     <a href="vie_quotidienne.php" data-toggle="dropdown" role="button"
                                       aria-haspopup="true" aria-expanded="false">Vie Quotidienne</a>
                     <ul><!--TODO : ??-->
-                        <li><a href="#">Les Transports</a></li>
-                        <li><a href="#">Complexes sportifs</a></li>
+                        <li><a href="#">Transports</a></li>
+                        <li><a href="#">Sports</a></li>
                         <li><a href="#">Tourisme</a></li>
                         <li><a href="#">Culture</a></li>
                     </ul>

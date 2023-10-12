@@ -12,22 +12,22 @@ require_once("include/header.php");
     <div class="conteneur">
         <div class="demarches">
             <!--TODO : mettre plus de démarches-->
+            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
+                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="150" height="150">
+            </a>
             <h2>Recherche de Travail</h2>
+        </div>
+        <div class="demarches">
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
                 <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="150" height="150">
             </a>
-        </div>
-        <div class="demarches">
             <h2>Autre Démarche</h2>
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
-                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="150" height="150">
-            </a>
         </div>
         <div class="demarches">
-            <h2>Payer sa facture</h2>
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
                 <img src="images/logo.png" alt="Payer sa facture" width="270" height="147">
             </a>
+            <h2>Payer sa facture</h2>
         </div>
     </div>
 </div>
