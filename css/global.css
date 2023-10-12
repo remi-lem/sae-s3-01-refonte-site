@@ -127,7 +127,7 @@ nav {
 
 
 /************
-RESTE
+IMG FOND
 ************/
 
 body{
@@ -137,6 +137,10 @@ body{
     background-attachment: fixed;
     z-index: -1;
 }
+
+/************
+FOOTER
+************/
 
 footer{
     display: flex;
@@ -155,4 +159,13 @@ footer #divFooterCertifs {
 
 footer #divFooterCertifs img {
     margin: 5px;
+}
+
+footer #divFooterDroite #iconesContact {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+}
+footer #divFooterDroite #iconesContact:hover {
+    background-color: white;
+    /*TODO*/
 }
