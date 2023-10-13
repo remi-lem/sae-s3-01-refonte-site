@@ -5,10 +5,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Baillif",
-        "habitants": 5122,
-        "Maire": "Marie-Yveline Théobald-Ponchateau",
-        "Code_Postal": 97123,
-        "Code_Commune": 97104
+        "Maire": "Mme Marie-Yveline Théobald-Ponchateau",
+        "Code_Postal": "97123",
+        "NbHab": "5 404",
+        "Site_Web": "https://ville-baillif.fr/",
+        "Tel": "0590 99 11 70",
+        "Mail": "mairiedebaillif@ville-baillif.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -336,10 +338,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Basse-Terre",
-        "habitants": 9892,
-        "Maire": "André Atallah",
-        "Code_Postal": 97100,
-        "Code_Commune": 97105
+        "Maire": "M. André Atallah",
+        "Code_Postal": "97100",
+        "NbHab": "10 046",
+        "Site_Web": "www.ville-basseterre.fr",
+        "Tel": "0590 80 56 56",
+        "Mail": "contact@ville-basseterre.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -502,10 +506,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Bouillante",
-        "habitants": 6760,
-        "Maire": "Thierry Abelli",
-        "Code_Postal": "97125,97132",
-        "Code_Commune": 97106
+        "Maire": "M. Thierry ABELLI",
+        "Code_Postal": "97125",
+        "NbHab": "6 935",
+        "Site_Web": "https://www.ville-bouillante.fr/",
+        "Tel": "0590 98 70 04",
+        "Mail": "courrier@ville-bouillante.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -934,10 +940,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Capesterre-Belle-Eau",
-        "habitants": 17628,
-        "Maire": "Jean-Philippe Courtois",
-        "Code_Postal": 97130,
-        "Code_Commune": 97107
+        "Maire": "M. Jean-Philippe COURTOIS",
+        "Code_Postal": "97130",
+        "NbHab": "18 131",
+        "Site_Web": "https://capesterrebelleeau.fr/",
+        "Tel": "0590 86 42 23",
+        "Mail": "contact@capesterrebelleeau.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -3411,10 +3419,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Gourbeyre",
-        "habitants": 7638,
-        "Maire": "Claude Edmond",
-        "Code_Postal": 97113,
-        "Code_Commune": 97109
+        "Maire": "M. Claude EDMOND",
+        "Code_Postal": "97113",
+        "NbHab": "7 778",
+        "Site_Web": "http://www.ville-gourbeyre.fr/",
+        "Tel": "0590 99 08 15",
+        "Mail": "non renseigné"
       },
       "geometry": {
         "type": "Polygon",
@@ -4976,10 +4986,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Saint-Claude",
-        "habitants": 10506,
-        "Maire": "Lucie Weck-Mirre",
-        "Code_Postal": 97120,
-        "Code_Commune": 97124
+        "Maire": "Mme. Lucie Weck-Mirre",
+        "Code_Postal": "97120",
+        "NbHab": "10 659",
+        "Site_Web": "http://www.ville-saintclaude.fr/",
+        "Tel": "0590 80 00 16",
+        "Mail": "cabinet.stclaude@wanadoo.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -6793,10 +6805,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Terre-de-Bas",
-        "habitants": 969,
-        "Maire": "Rolande Nadille",
-        "Code_Postal": 97136,
-        "Code_Commune": 97130
+        "Maire": "Mme Rolande NADILLE-VALA",
+        "Code_Postal": "97136",
+        "NbHab": "1 011",
+        "Site_Web": "non renseigné",
+        "Tel": "05 90 99 85 78",
+        "Mail": "mairie.de.terre.de.bas@wanadoo.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -6994,10 +7008,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Terre-de-Haut",
-        "habitants": 1513,
-        "Maire": "Hilaire Brudey",
-        "Code_Postal": 97137,
-        "Code_Commune": 97131
+        "Maire": "M. Louly BONBON",
+        "Code_Postal": "97137",
+        "NbHab": "1 526",
+        "Site_Web": "https://www.mairiedeterredehaut.fr/",
+        "Tel": "0590 99 53 12",
+        "Mail": "commune-terre-de-haut7@orange.fr"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9021,10 +9037,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Trois-Rivières",
-        "habitants": 7733,
-        "Maire": "Jean-Louis Francisque",
-        "Code_Postal": 97114,
-        "Code_Commune": 97132
+        "Maire": "M. Jean-Louis FRANCISQUE",
+        "Code_Postal": "97114",
+        "NbHab": "7 991",
+        "Site_Web": "https://villetroisrivieres.fr/",
+        "Tel": "0590 92 90 05",
+        "Mail": "mairie@villetroisrivieres.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -10714,10 +10732,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Vieux-Fort",
-        "habitants": 1841,
-        "Maire": "Héric André",
-        "Code_Postal": 97141,
-        "Code_Commune": 97133
+        "Maire": "M. Héric ANDRE",
+        "Code_Postal": "97141",
+        "NbHab": "1 844",
+        "Site_Web": "non renseigné",
+        "Tel": "0590 92 00 00",
+        "Mail": "mairie@ville-vieux-fort.fr"
       },
       "geometry": {
         "type": "Polygon",
@@ -11319,10 +11339,12 @@
       "type": "Feature",
       "properties": {
         "Nom": "Vieux-Habitants",
-        "habitants": 7067,
-        "Maire": "Jules Otto",
-        "Code_Postal": 97119,
-        "Code_Commune": 97134
+        "Maire": "M. Jules OTTO",
+        "Code_Postal": "97119",
+        "NbHab": "7 154",
+        "Site_Web": "non renseigné",
+        "Tel": "0590 98 42 02",
+        "Mail": "non renseigné"
       },
       "geometry": {
         "type": "Polygon",

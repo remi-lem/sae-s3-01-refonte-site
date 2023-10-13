@@ -15,9 +15,19 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Informations</h4>' +  (props ? '<b>' + props.Nom + '</b><br>Maire : ' + props.Maire
-        : 'Sélectionnez une commune');
+    this._div.innerHTML = '<h4>Informations</h4>' +  (props ? txtInfos(props) : 'Sélectionnez une commune');
 };
+
+function txtInfos(props){
+    let strRet = "<b>" + props.Nom + "</b><br>"
+    strRet += "Maire : " + props.Maire + "<br>"
+    strRet += "Code Postal : " + props.Code_Postal + "<br>"
+    strRet += "Nombre d'habitants : " + props.NbHab + "<br>"
+    strRet += "Site web : <a href='" + props.Site_Web + "' target='_blank'>" + props.Site_Web + "</a><br>"
+    strRet += "Tel : <a href='tel:" + props.Tel + "'>" + props.Tel + "</a><br>"
+    strRet += "Mail : <a href='mailto:" + props.Mail + "'>" + props.Mail + "</a><br>"
+    return strRet
+}
 
 info.addTo(carte);
 
