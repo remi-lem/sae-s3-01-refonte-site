@@ -160,12 +160,78 @@ footer #divFooterCertifs {
 footer #divFooterCertifs img {
     margin: 5px;
 }
-
 footer #divFooterDroite #iconesContact {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #divFooterDroite #iconesContact #iconeTel {
     background-color: #48a853;
     transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
 }
-footer #divFooterDroite #iconesContact:hover {
+footer #divFooterDroite #iconesContact #iconeTel:hover {
     background-color: white;
-    /*TODO*/
+}
+
+footer #divFooterDroite #iconesContact #iconeMail {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContact #iconeMail:hover {
+    background-color: white;
+}
+
+footer #divFooterDroite #iconesContactSocials {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #divFooterDroite #iconesContactSocials #icone1 {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContactSocials #icone1:hover {
+    background-color: white;
+}
+footer #divFooterDroite #iconesContactSocials #icone2 {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContactSocials #icone2:hover {
+    background-color: white;
+}
+footer #divFooterDroite #iconesContactSocials #icone3 {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContactSocials #icone3:hover {
+    background-color: white;
+}
+footer #divFooterDroite #iconesContactSocials #icone4 {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContactSocials #icone4:hover {
+    background-color: white;
+}
+footer #divFooterDroite #iconesContactSocials #icone5 {
+    background-color: #48a853;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+footer #divFooterDroite #iconesContactSocials #icone5:hover {
+    background-color: white;
 }
