@@ -20,7 +20,9 @@ require_once("include/header.php");
                             <a href="https://apps.apple.com/fr/app/trans-sud/id6449498067" class="btn btn-primary">Application iOS</a>
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+                <div class="col-sm-6">
+                <div class="card">
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
                             <!-- TODO -->
@@ -31,9 +33,9 @@ require_once("include/header.php");
                     </div>
                 </div>
             </div>
+            </div>
 
         </div>
-    </div>
 <?php
 require_once("include/footer.php");
 ?>
