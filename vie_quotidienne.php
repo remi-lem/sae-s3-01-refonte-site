@@ -25,7 +25,6 @@ require_once("include/header.php");
                 <div class="card">
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
-                            <!-- TODO -->
                             <h5 class="card-title">titre</h5>
                             <p class="card-text">texte</p>
                             <a href="#" class="btn btn-primary">lien</a>
