@@ -33,20 +33,12 @@ global $urlstyle;
                     <ul>
                         <li><a href="demarches.php#orientation-conteneur">Orientations et emploi</a></li>
                         <li><a href="demarches.php#abonnement-conteneur">Mes abonnements</a></li>
-                        <li><a href="#">Modifier mes coordonnées</a></li>
                         <li><a href="#">Mes tarifs</a></li>
                     </ul>
                 </li>
                 <li><a href="actualites.php">Actualités</a>
                 </li>
                 <li><a href="communes.php">Communes</a>
-                    <!-- TODO : a enlever ?
-                    <ul>
-                        <li><a href="#">Carte</a></li>
-                        <li><a href="#">Les élus</a></li>
-                        <li><a href="#">Environnement</a>
-                        </li>
-                    </ul>-->
                 </li>
                 <li>
                     <a href="vie_quotidienne.php" data-toggle="dropdown" role="button"
