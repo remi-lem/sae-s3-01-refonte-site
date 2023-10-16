@@ -1,9 +1,10 @@
 <?php
+$urlscript = "/javascript/footer.js";
+$urlstyle = "global.css";
 // -------------------------------------------------------------
 // ATTENTION : ne PAS mettre ../ avant les images sur ce fichier
 // -------------------------------------------------------------
 ?>
-
 <footer id="leFooter">
     <div id="divFooterGauche">
         <p>Communauté d'agglomération grand sud caraibes</p>
@@ -28,6 +29,8 @@
         <a href="https://www.instagram.com/cagrandsudcaraibe/"><img src="images/footer/insta.png" alt="Instagram"></a>
         <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/youtube.png" alt="Youtube"></a>
     </div>
+    <div id="darkmode">
+        <button id="theme-toggle">Changer de thème</button>
+    </div>
+
 </footer>
-</body>
-</html>
