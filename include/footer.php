@@ -22,10 +22,10 @@
         <p>Nous contacter</p>
         <div id="iconesContact">
             <div id="iconeTel">
-                <a href="tel:+590590996320"><img src="images/footer/contact/phone.png" alt="Téléphone" height="50px" width="50px"></a>
+                <a href="tel:+590590996320"><img src="images/footer/contact/phone.png" alt="Téléphone" height="50" width="50"></a>
             </div>
             <div id="iconeMail">
-                <a href="mailto:contact@grandsud.caraibles"><img src="images/footer/contact/mail.png" alt="Mail" height="50px" width="50px"></a>
+                <a href="mailto:contact@grandsud.caraibles"><img src="images/footer/contact/mail.png" alt="Mail" height="50" width="50"></a>
             </div>
         </div>
         <br>
@@ -45,6 +45,7 @@
             <div id="icone5">
                 <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/socials/youtube.png" alt="Youtube"></a>
             </div>
+        </div>
     </div>
 </footer>
 </body>

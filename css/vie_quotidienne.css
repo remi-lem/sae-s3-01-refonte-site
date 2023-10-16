@@ -2,5 +2,23 @@
     margin: 5%;
     text-align: center;
     font-size: 4rem;
-    color:white;
+    color: white;
+}
+
+#demarches {
+    background-color: #1a1d20;
+}
+
+#demarches h2 {
+    padding: 3rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#cartes {
+    padding: 3rem;
+}
+
+.card {
+    width: 18rem;
 }
