@@ -31,9 +31,8 @@ global $urlstyle;
             <ul>
                 <li><a href="demarches.php">Mes Démarches</a>
                     <ul>
-                        <li><a href="demarches.php#orientation-conteneur">Orientations et emploi</a></li>
-                        <li><a href="demarches.php#abonnement-conteneur">Mes abonnements</a></li>
-                        <li><a href="#">Mes tarifs</a></li>
+                        <li><a href="demarches.php#demarches-en-bref-dessus">Démarches en bref</a></li>
+                        <li><a href="demarches.php#autres-demarches">Autres démarches</a></li>
                     </ul>
                 </li>
                 <li><a href="actualites.php">Actualités</a>
@@ -41,13 +40,10 @@ global $urlstyle;
                 <li><a href="communes.php">Communes</a>
                 </li>
                 <li>
-                    <a href="vie_quotidienne.php" data-toggle="dropdown" role="button"
-                                      aria-haspopup="true" aria-expanded="false">Vie Quotidienne</a>
+                    <a href="vie_quotidienne.php">Vie Quotidienne</a>
                     <ul><!--TODO : ??-->
-                        <li><a href="#">Transports</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Tourisme</a></li>
-                        <li><a href="#">Culture</a></li>
+                        <li><a href="vie_quotidienne.php#se-deplacer">Transports</a></li>
+                        <li><a href="vie_quotidienne.php#gymnases">Sports</a></li>
                     </ul>
                 </li>
                 <li><a href="foire_question.php">FAQ</a></li>

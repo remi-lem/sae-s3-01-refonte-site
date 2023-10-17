@@ -6,7 +6,7 @@ require_once("include/header.php");
     <div id="vieQuotidienne">
         <h1>Vie quotidienne</h1>
     </div>
-    <div id="demarches">
+    <div id="se-deplacer">
         <h2>Se déplacer</h2>
         <div id="cartes">
             <div class="row justify-content-around">
