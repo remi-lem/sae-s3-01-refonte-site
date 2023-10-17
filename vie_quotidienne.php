@@ -16,8 +16,8 @@ require_once("include/header.php");
                         <div class="card-body">
                             <h5 class="card-title">Horaires de bus</h5>
                             <p class="card-text">Vous pouvez consulter les horaires de bus sur l'application</p>
-                            <a href="https://play.google.com/store/apps/details?id=sg.emsystem.eM_USR_Android_TSUD" class="btn btn-primary">Application Android</a>
-                            <a href="https://apps.apple.com/fr/app/trans-sud/id6449498067" class="btn btn-primary">Application iOS</a>
+                            <a href="https://play.google.com/store/apps/details?id=sg.emsystem.eM_USR_Android_TSUD" class="btn btn-primary">Android</a>
+                            <a href="https://apps.apple.com/fr/app/trans-sud/id6449498067" class="btn btn-primary">iOS</a>
                         </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ require_once("include/header.php");
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
                             <!-- TODO -->
-                            <h5 class="card-title">Addresses des gymnases</h5>
-                            <p class="card-text">Voici la carte des gymnases ou vous pouvez faire du sport</p>
+                            <h5 class="card-title">Adresses des gymnases</h5>
+                            <p class="card-text">Voici la carte des gymnases où vous pouvez faire du sport</p>
                             <a href="#" class="btn btn-primary">lien</a>
                         </div>
                     </div>
@@ -37,8 +37,8 @@ require_once("include/header.php");
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
                             <!-- TODO -->
-                            <h5 class="card-title">loisirs</h5>
-                            <p class="card-text">Voici la carte des gymnases ou vous pouvez faire du sport</p>
+                            <h5 class="card-title">Loisirs</h5>
+                            <p class="card-text">Voici les loisirs disponibles sur l'île</p>
                             <a href="#" class="btn btn-primary">lien</a>
                         </div>
                     </div>
@@ -48,8 +48,8 @@ require_once("include/header.php");
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
                             <!-- TODO -->
-                            <h5 class="card-title">culture</h5>
-                            <p class="card-text">Voici la carte des gymnases ou vous pouvez faire du sport</p>
+                            <h5 class="card-title">Culture</h5>
+                            <p class="card-text">Voici les évènements culturels à venir</p>
                             <a href="#" class="btn btn-primary">lien</a>
                         </div>
                     </div>
