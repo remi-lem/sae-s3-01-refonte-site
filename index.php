@@ -92,6 +92,12 @@ require_once("include/header.php");
         </div>
     </div>
 </div>
+
+<div id="carteAccueil">
+    <!--TODO ici une carte qui redirige vers la page communes-->
+    <a href="communes.php"><img src="images/accueil/carte.jpg" alt="Carte des communes"></a>
+</div>
+
 <?php
 require_once("include/footer.php");
 ?>
