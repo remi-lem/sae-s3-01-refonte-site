@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +13,7 @@ body {
 
 .demarches {
     text-align: center;
-    margin-bottom: 20%;
+    margin-bottom: 10rem;
 }
 .orientation-conteneur h1 {
     color: white;

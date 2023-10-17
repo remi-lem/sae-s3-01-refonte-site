@@ -6,7 +6,8 @@
 }
 
 #demarches {
-    background-color: #1a1d20;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
 
 #demarches h2 {
@@ -22,6 +23,12 @@
 #gymnases h2 {
     padding: 3rem;
     font-size: 2.5rem;
+    color: white;
+}
+
+#gymnases p {
+    padding: 2rem;
+    font-size: 1.5rem;
     color: white;
 }
 

@@ -14,25 +14,44 @@ require_once("include/header.php");
             </a>
         </div>
         <div class="demarches">
-            <h2>Autre Démarche</h2>
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
-                <img src="images/demarches/emploi.png" alt="Recherche d'emploie" width="251" height="201">
+            <h2>Demande de carte d'identité ou de passeport</h2>
+            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205.5">
             </a>
         </div>
     </div>
 </div>
 <div class="abonnement-conteneur">
-    <h2>Modifier mes coordonnées</h2>
-    <p>Vous pouvez modifier vos coordonnées de facturation directement depuis votre Espace Client.</p>
-
-    <h3>Vous souhaitez modifier vos coordonnées bancaires</h3>
-    <p>Rendez-vous sur l’accueil de votre Espace Client, et cliquez sur « Services » (barre de navigation en haut à gauche) pour dérouler le menu.</p>
-    <p>Cliquez sur « Modifier mon RIB » puis saisissez vos nouvelles coordonnées bancaires.</p>
-    <p>Signez ensuite votre mandat SEPA en ligne en toute sécurité, grâce à un code d’authentification que vous recevez au choix par mail ou par SMS.</p>
-
-    <h3>Vous souhaitez modifier votre adresse de facturation</h3>
-    <p>Rendez-vous sur l’accueil de votre Espace Client, et cliquez sur « Services » (barre de navigation en haut à gauche) pour dérouler le menu.</p>
-    <p>Cliquez sur « Modifier mes coordonnées », laissez-vous guider et cliquez sur "Envoyer".</p>
+    <div class="accordion" id="accordionExample" data-bs-theme="dark">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    Prendre rendez-vous avec votre maire
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    La procédure à suivre change en fonction de chaque commune.
+                    Merci de vous référer au site inscrit sur la page <a href="communes.php">Communes</a> afin de vous renseigner sur la marche à suivre.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                    Louer une salle
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Chaque commune possède son propre fonctionnement pour la location de salles.
+                    Merci d'appeler votre mairie au numéro inscrit sur la page <a href="communes.php">Communes</a> pour plus d'informations.
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php
