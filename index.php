@@ -17,7 +17,7 @@ require_once("include/header.php");
             </a>
         </div>
         <div class="demarches">
-            <h2>Demande de carte d'identité ou de passeport</h2>
+            <h2>Demande de CNI ou passport</h2>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                 <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205.5">
             </a>
@@ -29,7 +29,7 @@ require_once("include/header.php");
             </a>
         </div>
         <div class="demarches">
-            <h2>Autre démarche</h2>
+            <h2>Autres démarches</h2>
             <a href="demarches.php">
                 <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213.5">
             </a>
@@ -93,9 +93,12 @@ require_once("include/header.php");
     </div>
 </div>
 
-<div id="carteAccueil">
-    <!--TODO ici une carte qui redirige vers la page communes-->
-    <a href="communes.php"><img src="images/accueil/carte.jpg" alt="Carte des communes"></a>
+<div id="communes">
+    <h1>Communes membres</h1>
+    <div id="carteAccueil">
+        <!--TODO ici une carte qui redirige vers la page communes-->
+        <a href="communes.php"><img src="images/accueil/carte.jpg" alt="Carte des communes"></a>
+    </div>
 </div>
 
 <?php

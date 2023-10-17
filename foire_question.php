@@ -52,7 +52,7 @@ require_once("include/header.php");
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                         aria-expanded="false" aria-controls="collapseThree">
-                    Je construit ma maison, quelles sont les démarches pour avoir l'eau?
+                    Je construis ma maison, quelles sont les démarches pour avoir l'eau?
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

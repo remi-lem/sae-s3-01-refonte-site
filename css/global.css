@@ -146,46 +146,77 @@ FOOTER
 ************/
 
 footer{
+    height: 22vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 10%;
     padding: 1% 3%;
     margin-top: 5%;
     background: rgb(0, 0, 0, 0.65);
     color: white;
-    font-size: 1.2rem;
 }
 
-footer #divFooterCertifs {
+#divFooterGauche {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#divFooterGauche h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#divFooterGauche p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#divFooterCertifs {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer #divFooterCertifs img {
+#divFooterCertifs img {
     margin: 5px;
 }
 
-footer #divFooterDroite #iconesContact {
+#divFooterDroite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#divFooterDroite p {
+    margin: 0;
+}
+
+#iconesContact {
     display: flex;
     flex-direction: row;
 }
 
-footer #divFooterDroite #iconesContact img {
+#iconesContact img {
+    width: 2.5rem;
     background-color: #48a853;
     transition: background-color 0.3s;
     border-radius: 1rem;
     padding: 0.3rem;
     margin: 0 0.2rem;
 }
-footer #divFooterDroite #iconesContact img:hover {
+#iconesContact img:hover {
     background-color: white;
 }
 
-footer #divFooterDroite #iconesContactSocials {
+#iconesContactSocial {
     display: flex;
     flex-direction: row;
 }
 
-footer #divFooterDroite #iconesContactSocials img {
+#iconesContactSocial img {
+    width: 2.5rem;
     background-color: #48a853;
     transition: background-color 0.3s;
     border-radius: 1rem;
@@ -193,6 +224,7 @@ footer #divFooterDroite #iconesContactSocials img {
     margin: 0 0.2rem;
 }
 
-footer #divFooterDroite #iconesContactSocials img:hover {
+#iconesContactSocial img:hover {
     background-color: white;
 }
+
