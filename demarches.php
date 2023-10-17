@@ -11,7 +11,7 @@ require_once("include/header.php");
         <div class="conteneur">
             <div class="demarches">
                 <h2>Recherche de Travail</h2>
-                <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
+                <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
                     <img src="images/demarches/emploi.png" alt="Recherche d'emploie" width="251" height="201">
                 </a>
             </div>

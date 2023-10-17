@@ -11,23 +11,28 @@ require_once("include/header.php");
     <h1 id="titreDemarches">Mes démarches</h1>
     <div class="conteneur">
         <div class="demarches">
-            <!--TODO : mettre plus de démarches-->
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
-                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="150" height="150">
-            </a>
             <h2>Recherche de Travail</h2>
+            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
+                <img src="images/demarches/emploi.png" alt="Recherche d'emploie" width="251" height="201">
+            </a>
         </div>
         <div class="demarches">
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
-                <img src="images/demarches/emploi.png" alt="Recherche d'emploi" width="150" height="150">
+            <h2>Demande de carte d'identité ou de passeport</h2>
+            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205.5">
             </a>
-            <h2>Autre Démarche</h2>
         </div>
         <div class="demarches">
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843">
-                <img src="images/logo.png" alt="Payer sa facture" width="270" height="147">
+            <h2>Payer une facture</h2>
+            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                <img src="images/demarches/payer.jpg" alt="Recherche d'emploie" width="251" height="201">
             </a>
-            <h2>Payer sa facture</h2>
+        </div>
+        <div class="demarches">
+            <h2>Autre démarche</h2>
+            <a href="demarches.php">
+                <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213.5">
+            </a>
         </div>
     </div>
 </div>
