@@ -1,11 +1,16 @@
 #conteneurCarteCommunes {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
 
 #carteCommunes {
-    width: 70%;
-    height: 750px;
+    width: 80%;
+    height: 85vh;
 }
 
 #communes h1 {

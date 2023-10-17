@@ -3,8 +3,8 @@ $titre = "Foire aux questions  | CAGSC";
 $urlstyle = "css/faq.css";
 require_once("include/header.php");
 ?>
+<h1 id="titleContenuFAQ">Foire aux questions</h1>
 <div id="contenuFAQ">
-    <h1>Foire aux questions</h1>
 <div id="foireAuxQuestions">
     <h2 id="titleFAQ">Questions fréquentes</h2>
     <!--TODO mettre plus de questions ?-->

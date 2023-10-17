@@ -2,9 +2,7 @@
 let carte = L.map('carteCommunes', {zoomControl:false, minZoom:"11", maxZoom:"11", dragging:false,
     doubleClickZoom:false, keyboard:false}).setView([16.0191, -61.6572], 11);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(carte);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(carte);
 
 let info = L.control();
 
@@ -19,13 +17,12 @@ info.update = function (props) {
 };
 
 function txtInfos(props){
-    let strRet = "<b>" + props.Nom + "</b><br>"
+    let strRet = "<b>" + props.Nom+ "</b>" + ", " + props.Code_Postal + "<br>"
+    strRet += props.NbHab + " habitants" + "<br>"
     strRet += "Maire : " + props.Maire + "<br>"
-    strRet += "Code Postal : " + props.Code_Postal + "<br>"
-    strRet += "Nombre d'habitants : " + props.NbHab + "<br>"
-    strRet += "Site web : <a href='" + props.Site_Web + "' target='_blank'>" + props.Site_Web + "</a><br>"
-    strRet += "Tel : <a href='tel:" + props.Tel + "'>" + props.Tel + "</a><br>"
-    strRet += "Mail : <a href='mailto:" + props.Mail + "'>" + props.Mail + "</a><br>"
+    strRet += (props.Site_Web.toString() !== "non renseigné") ? "<a href='" + props.Site_Web + "' target='_blank'>" + props.Site_Web + "</a><br>" : ""
+    strRet += "<a href='tel:" + props.Tel + "'>" + props.Tel + "</a><br>"
+    strRet += (props.Mail.toString() !== "non renseigné") ? "<a href='mailto:" + props.Mail + "'>" + props.Mail + "</a><br>" : ""
     return strRet
 }
 
