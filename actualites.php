@@ -3,13 +3,14 @@ $titre = "Actualités | CAGSC";
 $urlstyle = "css/actualites.css";
 require_once("include/header.php");
 ?>
+<h1 id="actualites">Dernières actualités</h1>
 <section>
-    <h1>Dernières actualités</h1>
     <article id="1">
         <img src="images/actualites/enquete-medicaments.jpg" alt="Campagne Vaccination Papillomavirus">
         <div class="texte">
             <h2>Résultat de l'enquête médicamenteuse sont enfin là !</h2>
             <p>Dans le contexte actuel de pénurie et de difficultés d’approvisionnement des médicaments, suite aux consignes de vigilance de l’Agence Régionale de Santé (ARS), la communauté d’agglomération s'est donné pour mission de mettre au point un dispositif de remontée d’information sur son territoire, les résultats sont disponibles à partir de cette semaine.</p>
+            <button type="button">Voir</button>
         </div>
     </article>
     <article id="2">

@@ -9,6 +9,7 @@
 
 nav {
     width: 100%; /*TODO : faire mieux*/
+    height: 15vh;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -168,7 +169,7 @@ footer{
 }
 
 #divFooterGauche p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin: 0;
 }
 
