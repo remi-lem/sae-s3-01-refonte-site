@@ -85,11 +85,11 @@ require_once("include/header.php");
 </div>
 <div id="formContactFAQ">
 
-    <div class="mb-3">
+    <div class="mb-3 champ">
         <label for="formFAQMail" class="form-label">Adresse e-mail (pour vous recontacter)</label>
         <input type="email" class="form-control" id="formFAQMail" placeholder="nom@mail.com" required>
     </div>
-    <div class="mb-3">
+    <div class="mb-3 champ">
         <label for="formFAQMess" class="form-label">Votre question :</label>
         <textarea class="form-control" id="formFAQMess" rows="3" required></textarea>
     </div>

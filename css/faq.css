@@ -1,6 +1,5 @@
 #formContactFAQ {
     color: white;
-    width: 70%;
 }
 
 #titleFormContactFAQ, #titleFAQ{
@@ -17,7 +16,7 @@
 }
 
 .accordion, #formContactFAQ {
-    margin-left: 3%;
+    margin-inline: 3%;
 }
 
 #contenuFAQ {
@@ -26,4 +25,8 @@
 
 #titleFormContactFAQ {
     margin-top: 5%;
+}
+
+.champ {
+    width: 45%;
 }

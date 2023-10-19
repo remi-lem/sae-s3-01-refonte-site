@@ -25,18 +25,21 @@ nav {
     transform: translateY(0);
     -webkit-transition : all 0.3s ease-out;
     transition : all 0.3s ease-out;
-    position: sticky;
     width: 100%;
+    padding-left: 3%;
     top: 0;
 }
 
 .nav-gauche img {
     width: 180px;
     height: 98px;
+    margin-left: 5%;
 }
 
 .navigation ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation li {
@@ -45,10 +48,10 @@ nav {
 
 .navigation a {
     text-decoration: none;
-    color: white;
     font-size: 1.5em;
     font-weight: bold;
 }
+
 /*sous-menus */
 .navigation ul ul {
     display: none;
@@ -59,18 +62,21 @@ nav {
     z-index: 1;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
 }
 
 .navigation ul li:hover > ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .navigation ul li ul {
     width: 100%;
-    background-color: black;
+    background: rgb(255, 255, 255, 0.8);
 }
+
 /* TODO
 #searchbar{
     margin-top: -5%;
@@ -108,14 +114,17 @@ nav {
     opacity: 0;
     transition: all 200ms linear;
 }
+
 .navigation li:hover:after {
     bottom: 0;
     opacity: 1;
 }
+
 .navigation li.active:hover:after{
     opacity: 0;
 }
-.navigation li{
+
+.navigation li {
     position: relative;
     padding: 0 20px;
     transition: all 200ms linear;
@@ -123,11 +132,15 @@ nav {
 
 .navigation li:first-child, .navigation ul li ul li {
     border-left: none;
-    padding-left: 0;
+}
+
+.navigation ul li ul li {
+    padding: 0;
 }
 
 .navigation ul li ul li a {
     font-size: 18px;
+    color: black !important;
 }
 
 /************
@@ -207,6 +220,7 @@ footer{
     padding: 0.3rem;
     margin: 0 0.2rem;
 }
+
 #iconesContact img:hover {
     background-color: white;
 }
@@ -229,3 +243,6 @@ footer{
     background-color: white;
 }
 
+@media (max-width: 699px) {
+    /*TODO : petit écran */
+}
