@@ -1,1 +1,0 @@
-/* Cliquer sur une carte redirige vers l'actualité concernée */

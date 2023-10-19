@@ -47,26 +47,26 @@ require_once("include/header.php");
                     <p class="texte">Les résultats tant attendus sont enfin là !</p>
                 </div>
             </div>
-            <div class="carte">
-                <div class="contenu" onclick="window.location = ('actualites.php#2')">
+            <div class="carte" onclick="window.location = ('actualites.php#2')">
+                <div class="contenu">
                     <h2 class="title">Tempête Philippe</h2>
                     <p class="texte">Des averses de forte intensité et de gros orages en perspective.</p>
                 </div>
             </div>
-            <div class="carte">
-                <div class="contenu" onclick="window.location = ('actualites.php#3')">
+            <div class="carte" onclick="window.location = ('actualites.php#3')">
+                <div class="contenu">
                     <h2 class="title">Augmentation du prix de l’électricité</h2>
                     <p class="texte">La région Guadeloupe octroie 220€ aux foyers modestes.</p>
                 </div>
             </div>
-            <div class="carte">
-                <div class="contenu" onclick="window.location = ('actualites.php#4')">
+            <div class="carte" onclick="window.location = ('actualites.php#4')">
+                <div class="contenu">
                     <h2 class="title">Eau interdite à la consommation</h2>
                     <p class="texte">Interdite à la consommation à Sainte-Anne, Saint-François et La Désirade.</p>
                 </div>
             </div>
-            <div class="carte">
-                <div class="contenu" onclick="window.location = ('actualites.php#5')">
+            <div class="carte" onclick="window.location = ('actualites.php#5')">
+                <div class="contenu">
                     <h2 class="title">Trois nouvelles brigades de gendarmerie</h2>
                     <p class="texte">Emmanuel Macron annonce la création de trois nouvelles brigades de gendarmerie.</p>
                 </div>
