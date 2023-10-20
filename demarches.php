@@ -18,7 +18,7 @@ require_once("include/header.php");
             <div class="demarches">
                 <h2>Demande de carte d'identité ou de passeport</h2>
                 <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                    <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205.5">
+                    <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
                 </a>
             </div>
         </div>

@@ -16,8 +16,8 @@ require_once("include/header.php");
                         <div class="card-body">
                             <h5 class="card-title">Horaires de bus</h5>
                             <p class="card-text">Vous pouvez consulter les horaires de bus sur l'application</p>
-                            <a href="https://play.google.com/store/apps/details?id=sg.emsystem.eM_USR_Android_TSUD" class="btn btn-primary">Android</a>
-                            <a href="https://apps.apple.com/fr/app/trans-sud/id6449498067" class="btn btn-primary">iOS</a>
+                            <a href="https://play.google.com/store/apps/details?id=sg.emsystem.eM_USR_Android_TSUD" class="btn btn-primary" target="_blank">Android</a>
+                            <a href="https://apps.apple.com/fr/app/trans-sud/id6449498067" class="btn btn-primary" target="_blank">iOS</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ require_once("include/header.php");
                         <div class="card-body">
                             <h5 class="card-title">Horaires de bus</h5>
                             <p class="card-text">Les horaires des bus sont également téléchargeables au format PDF</p>
-                            <a href="documents/horaires_bus.pdf" class="btn btn-primary">Télécharger</a>
+                            <a href="documents/horaires_bus.pdf" class="btn btn-primary" target="_blank">Télécharger</a>
                         </div>
                     </div>
                 </div>
