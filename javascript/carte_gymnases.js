@@ -59,8 +59,8 @@ L.marker([16.24719000,-61.59608000]).addTo(map).bindPopup("<b>Collège Gourdelia
 L.marker([16.25407000,-61.60402000]).addTo(map).bindPopup("<b>Fond Budan Baie Mahault",customOptions);
 L.marker([16.26390000,-61.57414000]).addTo(map).bindPopup("<b>Centre Pénitentiaire Baie Mahault",customOptions);
 L.marker([16.25714000,-61.53076000]).addTo(map).bindPopup("<b>Collège Raizet Les Abymes",customOptions);
-L.marker([16.24689000, 61.53512000]).addTo(map).bindPopup("<b>Lycée Baimbridge Les Abymes",customOptions);
-L.marker([16.24711000, 61.52332000]).addTo(map).bindPopup("<b>Lycée Baimbridge Les Abymes",customOptions);
+L.marker([16.24689000,-61.53512000]).addTo(map).bindPopup("<b>Lycée Baimbridge Les Abymes",customOptions);
+L.marker([16.24711000,-61.52332000]).addTo(map).bindPopup("<b>Lycée Baimbridge Les Abymes",customOptions);
 L.marker([16.26929000,-61.50897000]).addTo(map).bindPopup("<b>Complexe Sportif Vieux-Bourg Abymes Les Abymes",customOptions);
 L.marker([16.25892000,-61.51733000]).addTo(map).bindPopup("<b>Caserne de Petit-Pérou Les Abymes",customOptions);
 L.marker([16.26944000,-61.50988000]).addTo(map).bindPopup("<b>Grand Gymnase de Dothémare Les Abymes",customOptions);
