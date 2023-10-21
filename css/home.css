@@ -16,7 +16,6 @@
 /*--------------Démarches------------*/
 .demarches-conteneur {
     padding-block: 2%;
-    height: 90vh;
     background-color: white;
 }
 
@@ -254,33 +253,35 @@
 /*--------------Communes------------*/
 #communes {
     width: 100%;
-    height: 90vh;
-    padding-top: 2%;
+    padding: 2%;
     background-color: #279335;
+    text-align: center;
+    color: white;
 }
 
 #communes h1 {
     margin: 2%;
-    text-align: center;
     font-size: 4rem;
-    color: white;
 }
 
-#carteAccueil {
+#flexAccueilCommunes {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
+#flexAccueilCommunes img {
+    flex-direction: column;
+    height: 500px;
+}
 
-
-@media (max-width: 916px) {
-/*Pour garder une taille correcte mais qui prend
-les éléments du wrap entièrement*/
-    .demarches-conteneur {
-        height: fit-content;
+#communes p {
+    > a {
+        font-size: 2rem;
+        color: white;
     }
+    margin: 2%;
 }
+
 /*--------------Petit écran------------*/
 @media (max-width: 699px) {
 

@@ -7,36 +7,6 @@ require_once("include/header.php");
     <h1>Bienvenue sur le site de la Communauté d'Agglomération Grand Sud Caraïbe !</h1>
 </div>
 
-<div class="demarches-conteneur">
-    <h1 id="titreDemarches">Mes démarches</h1>
-    <div class="conteneur">
-        <div class="demarches">
-            <h2>Recherche d'emploi</h2>
-            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
-                <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie" width="251" height="201">
-            </a>
-        </div>
-        <div class="demarches">
-            <h2>Demande de CNI/passport</h2>
-            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
-            </a>
-        </div>
-        <div class="demarches">
-            <h2>Paiement d'une facture</h2>
-            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                <img src="images/demarches/payer.jpg" alt="Recherche d'emploie" width="251" height="201">
-            </a>
-        </div>
-        <div class="demarches">
-            <h2>Autres démarches</h2>
-            <a href="demarches.php">
-                <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213">
-            </a>
-        </div>
-    </div>
-</div>
-
 <div class="actualites">
     <h1 id="titreActus">Les dernières actualités</h1>
     <div class="conteneur-actus">
@@ -93,11 +63,43 @@ require_once("include/header.php");
     </div>
 </div>
 
+    <div class="demarches-conteneur">
+        <h1 id="titreDemarches">Mes démarches</h1>
+        <div class="conteneur">
+            <div class="demarches">
+                <h2>Recherche d'emploi</h2>
+                <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
+                    <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie" width="251" height="201">
+                </a>
+            </div>
+            <div class="demarches">
+                <h2>Demande de CNI/passport</h2>
+                <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                    <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
+                </a>
+            </div>
+            <div class="demarches">
+                <h2>Paiement d'une facture</h2>
+                <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                    <img src="images/demarches/payer.jpg" alt="Recherche d'emploie" width="251" height="201">
+                </a>
+            </div>
+            <div class="demarches">
+                <h2>Autres démarches</h2>
+                <a href="demarches.php">
+                    <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213">
+                </a>
+            </div>
+        </div>
+    </div>
+
 <div id="communes">
     <h1>Communes membres</h1>
-    <div id="carteAccueil">
-        <a href="communes.php"><img src="images/accueil/carte.jpg" alt="Carte des communes"></a>
+    <div id="flexAccueilCommunes">
+        <img src="images/accueil/paysage.jpg" alt="paysage">
+        <img src="images/accueil/reunion_cagsc.jpg" alt="reunion CAGSC">
     </div>
+    <p><a href="communes.php">Cliquez ici pour des informations plus précises sur les communes</a></p>
 </div>
 
 <?php
