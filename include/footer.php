@@ -17,18 +17,20 @@
             <img src="https://www.w3.org/Icons/valid-html401" alt="W3C badge">
         </a>
     </div>
-    <div id="divFooterDroite">
+    <div id="divFooterDroit">
         <p>Nous contacter</p>
-        <div id="iconesContact">
-            <a href="tel:+590590996320"><img src="images/footer/contact/phone.png" alt="Téléphone"></a>
-            <a href="mailto:contact@grandsud.caraibles"><img src="images/footer/contact/mail.png" alt="Mail"></a>
-        </div>
-        <div id="iconesContactSocial">
-            <a href="https://twitter.com/grandsudcaraibe"><img src="images/footer/socials/twitter.png" alt="Twitter"></a>
-            <a href="https://fr-fr.facebook.com/CA.GrandSudCaraibe/"><img src="images/footer/socials/facebook.png" alt="Facebook"></a>
-            <a href="https://gp.linkedin.com/in/grand-sud-caraïbe"><img src="images/footer/socials/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/cagrandsudcaraibe/"><img src="images/footer/socials/insta.png" alt="Instagram"></a>
-            <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/socials/youtube.png" alt="Youtube"></a>
+        <div id="divIcones">
+            <div id="iconesContact">
+                <a href="tel:+590590996320"><img src="images/footer/contact/phone.png" alt="Téléphone"></a>
+                <a href="mailto:contact@grandsud.caraibles"><img src="images/footer/contact/mail.png" alt="Mail"></a>
+            </div>
+            <div id="iconesContactSocial">
+                <a href="https://twitter.com/grandsudcaraibe"><img src="images/footer/socials/twitter.png" alt="Twitter"></a>
+                <a href="https://fr-fr.facebook.com/CA.GrandSudCaraibe/"><img src="images/footer/socials/facebook.png" alt="Facebook"></a>
+                <a href="https://gp.linkedin.com/in/grand-sud-caraïbe"><img src="images/footer/socials/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/cagrandsudcaraibe/"><img src="images/footer/socials/insta.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/@grandsudcaraibe"><img src="images/footer/socials/youtube.png" alt="Youtube"></a>
+            </div>
         </div>
     </div>
 </footer>

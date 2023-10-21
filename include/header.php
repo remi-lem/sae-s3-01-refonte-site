@@ -20,9 +20,10 @@ global $urlstyle;
     <script src="leaflet/leaflet.js"></script>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="images/logo_favicon.jpg">
+    <script src="javascript/hamburger_menu.js" defer></script>
 </head>
 <body>
-    <nav class="navigation">
+    <!--<nav class="navigation">
         <div class="nav-gauche">
             <a href="index.php"><img src="images/logo.png" alt="Logo CASBT" width="270" height="147"></a>
         </div>
@@ -41,15 +42,45 @@ global $urlstyle;
                 </li>
                 <li>
                     <a href="vie_quotidienne.php">Vie Quotidienne</a>
-                    <ul><!--TODO : ??-->
-                        <li><a href="vie_quotidienne.php#se-deplacer">Transports</a></li>
+                    <ul>--><!--TODO : ??-->
+                        <!--<li><a href="vie_quotidienne.php#se-deplacer">Transports</a></li>
                         <li><a href="vie_quotidienne.php#gymnases">Sports</a></li>
                     </ul>
                 </li>
                 <li><a href="foire_question.php">FAQ</a></li>
-            </ul>
+            </ul>-->
             <!--
             <input id="searchbar" type="text" name="search" placeholder="Rechercher">
             -->
+        <!--</div>
+    </nav>-->
+
+    <div id="root">
+        <div id="topnav" class="topnav">
+            <a id="home_link" class="topnav_link" href="/">HOME</a>
+
+            <!-- Classic Menu -->
+            <nav role="navigation" id="topnav_menu">
+                <a class="topnav_link" href="/about">ABOUT</a>
+                <a class="topnav_link" href="/contact-us">CONTACT</a>
+            </nav>
+
+            <a id="topnav_hamburger_icon">
+                <!-- Some spans to act as a hamburger -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <!-- Responsive Menu -->
+            <nav role="navigation" id="topnav_responsive_menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/contact-us">CONTACT</a></li>
+                    <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
+                    <li><a href="/terms-and-conditions">TERMS AND CONDITIONS</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </div>
