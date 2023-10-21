@@ -95,9 +95,16 @@ require_once("include/header.php");
 
 <div id="communes">
     <h1>Communes membres</h1>
+    <p>Découvrez sur notre carte interactive ci-dessous des informations complémentaires sur nos communes membres.</p>
     <div id="flexAccueilCommunes">
-        <img src="images/accueil/paysage.jpg" alt="paysage">
-        <img src="images/accueil/reunion_cagsc.jpg" alt="reunion CAGSC">
+        <figure>
+            <img src="images/accueil/paysage.jpg" alt="paysage">
+            <figcaption>Paysage des Saintes (Terre-de-Haut et Terre-de-Bas)</figcaption>
+        </figure>
+        <figure>
+            <img src="images/accueil/reunion_cagsc.jpg" alt="reunion CAGSC">
+            <figcaption>Réunion au siège de la CAGSC</figcaption>
+        </figure>
     </div>
     <p><a href="communes.php">Cliquez ici pour des informations plus précises sur les communes</a></p>
 </div>

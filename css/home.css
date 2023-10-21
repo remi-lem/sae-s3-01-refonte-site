@@ -17,6 +17,7 @@
 .demarches-conteneur {
     padding-block: 2%;
     background-color: white;
+    justify-content: space-evenly;
 }
 
 #titreDemarches {
@@ -269,7 +270,7 @@
     justify-content: space-around;
 }
 
-#flexAccueilCommunes img {
+#flexAccueilCommunes figure img {
     flex-direction: column;
     height: 500px;
 }
