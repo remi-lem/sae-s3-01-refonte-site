@@ -7,6 +7,36 @@ require_once("include/header.php");
     <h1>Bienvenue sur le site de la Communauté d'Agglomération Grand Sud Caraïbe !</h1>
 </div>
 
+<div class="demarches-conteneur">
+    <h1 id="titreDemarches">Mes démarches</h1>
+    <div class="conteneur">
+        <div class="demarches">
+            <h2>Recherche d'emploi</h2>
+            <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
+                <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie" width="251" height="201">
+            </a>
+        </div>
+        <div class="demarches">
+            <h2>Demande de CNI/passport</h2>
+            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
+            </a>
+        </div>
+        <div class="demarches">
+            <h2>Paiement d'une facture</h2>
+            <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                <img src="images/demarches/payer.jpg" alt="Recherche d'emploie" width="251" height="201">
+            </a>
+        </div>
+        <div class="demarches">
+            <h2>Autres démarches</h2>
+            <a href="demarches.php">
+                <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213">
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="actualites">
     <h1 id="titreActus">Les dernières actualités</h1>
     <div class="conteneur-actus">
@@ -63,36 +93,6 @@ require_once("include/header.php");
     </div>
 </div>
 
-    <div class="demarches-conteneur">
-        <h1 id="titreDemarches">Mes démarches</h1>
-        <div class="conteneur">
-            <div class="demarches">
-                <h2>Recherche d'emploi</h2>
-                <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
-                    <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie" width="251" height="201">
-                </a>
-            </div>
-            <div class="demarches">
-                <h2>Demande de CNI/passport</h2>
-                <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                    <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
-                </a>
-            </div>
-            <div class="demarches">
-                <h2>Paiement d'une facture</h2>
-                <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                    <img src="images/demarches/payer.jpg" alt="Recherche d'emploie" width="251" height="201">
-                </a>
-            </div>
-            <div class="demarches">
-                <h2>Autres démarches</h2>
-                <a href="demarches.php">
-                    <img src="images/demarches/autre_demarche.jpg" alt="passeport" width="320" height="213">
-                </a>
-            </div>
-        </div>
-    </div>
-
 <div id="communes">
     <h1>Communes membres</h1>
     <p>Découvrez sur notre carte interactive ci-dessous des informations complémentaires sur nos communes membres.</p>
@@ -107,6 +107,32 @@ require_once("include/header.php");
         </figure>
     </div>
     <p><a href="communes.php">Cliquez ici pour des informations plus précises sur les communes</a></p>
+</div>
+
+<div id="vieQuotidienne">
+    <h1>Vie quotidienne</h1>
+    <div id="cartes">
+        <div class="row justify-content-around">
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
+                    <div class="card-body">
+                        <h5 class="card-title">Horaires de bus</h5>
+                        <a href="vie_quotidienne.php#se-deplacer">Consulter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="images/vie_quotidienne/basket.jpg" class="card-img-top" alt="basketball">
+                    <div class="card-body">
+                        <h5 class="card-title">Carte des gymnases</h5>
+                        <a href="vie_quotidienne.php#gymnases">Consulter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php

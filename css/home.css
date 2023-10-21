@@ -283,6 +283,16 @@
     margin: 2%;
 }
 
+/*------------Vie Quotidinne----------*/
+#vieQuotidienne {
+    width: 100%;
+    padding: 2%;
+    background-color: #0a58ca;
+    text-align: center;
+    color: white;
+}
+
+
 /*--------------Petit écran------------*/
 @media (max-width: 699px) {
 
