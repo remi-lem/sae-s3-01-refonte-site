@@ -24,7 +24,7 @@ global $urlstyle;
 <body>
     <nav class="navigation">
         <div class="nav-gauche">
-            <a href="index.php"><img src="../images/logo.png" alt="Logo CASBT" width="270" height="147"></a>
+            <a href="index.php"><img src="images/logo.png" alt="Logo CASBT" width="270" height="147"></a>
         </div>
 
         <div class="nav-droite">
