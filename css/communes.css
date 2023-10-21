@@ -13,13 +13,6 @@
     height: 85vh;
 }
 
-#communes h1 {
-    margin: 5%;
-    text-align: center;
-    font-size: 4rem;
-    color:white;
-}
-
 .info {
     padding: 6px 8px;
     font: 1.3em Arial, Helvetica, sans-serif;
@@ -33,4 +26,8 @@
     color: #777;
 }
 
-.info p
+@media (max-width: 699px) {
+    #carteCommunes {
+        width: 90%;
+    }
+}

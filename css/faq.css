@@ -1,16 +1,10 @@
-#formContactFAQ {
-    color: white;
-}
-
 #titleFormContactFAQ, #titleFAQ {
     padding: 3rem;
     font-size: 2.5rem;
     color: white;
 }
 
-#titleContenuFAQ {
-    text-align: center;
-    font-size: 4rem;
+#formContactFAQ {
     color: white;
 }
 
@@ -31,10 +25,6 @@
 }
 
 @media (max-width: 699px) {
-    #titleContenuFAQ {
-        padding-top: 10%;
-        font-size: 2.5rem;
-    }
     #titleFormContactFAQ, #titleFAQ {
         font-size: 1.5rem;
         padding: 1rem;

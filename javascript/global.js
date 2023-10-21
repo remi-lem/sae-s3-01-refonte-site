@@ -16,3 +16,23 @@ function showResponsiveMenu() {
 document.getElementById("topnav_hamburger_icon").addEventListener("click", (event) => {
     showResponsiveMenu();
 });
+
+//TODO : scroll vers le haut montre la navbar, vers le bas, la cache
+
+let prevScrollPos = window.pageYOffset;
+
+window.addEventListener('scroll', function() {
+    // current scroll position
+    const currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        // user has scrolled up
+        document.querySelector('#topnav').classList.add('show');
+    } else {
+        // user has scrolled down
+        document.querySelector('#topnav').classList.remove('show');
+    }
+
+    // update previous scroll position
+    prevScrollPos = currentScrollPos;
+});
