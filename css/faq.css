@@ -2,17 +2,16 @@
     color: white;
 }
 
-#titleFormContactFAQ, #titleFAQ{
+#titleFormContactFAQ, #titleFAQ {
     padding: 3rem;
     font-size: 2.5rem;
     color: white;
 }
 
 #titleContenuFAQ {
-    margin: 5%;
     text-align: center;
     font-size: 4rem;
-    color:white;
+    color: white;
 }
 
 .accordion, #formContactFAQ {
@@ -29,4 +28,34 @@
 
 .champ {
     width: 45%;
+}
+
+@media (max-width: 699px) {
+    #titleContenuFAQ {
+        padding-top: 10%;
+        font-size: 2.5rem;
+    }
+    #titleFormContactFAQ, #titleFAQ {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    #titleFormContactFAQ {
+        padding: 5%;
+        text-align: justify;
+    }
+
+    #titleFormContactFAQ h2 {
+        font-size: 20px;
+    }
+
+    .champ {
+        width: 80%;
+    }
+
+    #formContactFAQ {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

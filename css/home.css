@@ -14,9 +14,8 @@
 }
 
 /*--------------Démarches------------*/
-
 .demarches-conteneur {
-    padding-top: 2%;
+    padding-block: 2%;
     height: 90vh;
     background-color: white;
 }
@@ -31,7 +30,9 @@
 .conteneur {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-inline: 2%;
 }
 
 .demarches {
@@ -269,4 +270,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (max-width: 916px) {
+/*Pour garder une taille correcte mais qui prend
+les éléments du wrap entièrement*/
+    .demarches-conteneur {
+        height: fit-content;
+    }
+}
+/*--------------Petit écran------------*/
+@media (max-width: 699px) {
+
+    .demarches:last-child {
+        margin-bottom: 5%;
+    }
+
+    .demarches img {
+        width: 180px;
+        height: 180px;
+    }
 }

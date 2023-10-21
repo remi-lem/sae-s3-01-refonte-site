@@ -41,3 +41,8 @@
     width: 70%;
     height: 750px;
 }
+
+/*--------------Petit écran------------*/
+@media (max-width: 699px) {
+    /*TODO : mettre en colonne se déplacer*/
+}

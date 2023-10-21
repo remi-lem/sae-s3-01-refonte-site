@@ -84,9 +84,8 @@ require_once("include/header.php");
     <h2>Vous n'avez pas la réponse à votre question ? Envoyez-la nous par e-mail !</h2>
 </div>
 <div id="formContactFAQ">
-
     <div class="mb-3 champ">
-        <label for="formFAQMail" class="form-label">Adresse e-mail (pour vous recontacter)</label>
+        <label for="formFAQMail" class="form-label">Adresse e-mail :</label>
         <input type="email" class="form-control" id="formFAQMail" placeholder="nom@mail.com" required>
     </div>
     <div class="mb-3 champ">

@@ -20,10 +20,12 @@ article {
     margin-bottom: 5%;
     border-radius: 14px;
     opacity: 0.9;
+    overflow: scroll;
 }
 
 article img {
     border-radius: 10px;
+    width: 40%;
 }
 
 article:last-child {
@@ -42,4 +44,15 @@ article:last-child {
 .texte p {
     font-size: 1rem;
     text-align: justify;
+}
+
+/*--------------Petit écran------------*/
+@media (max-width: 699px) {
+    article {
+        flex-direction: column;
+    }
+    article img {
+        border-radius: 10px;
+        width: 100%;
+    }
 }
