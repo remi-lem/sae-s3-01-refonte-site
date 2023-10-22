@@ -112,7 +112,7 @@ require_once("include/header.php");
     <h1 id="titreVieQuo">Vie quotidienne</h1>
     <div id="cartes">
         <div class="row justify-content-around">
-            <div class="col-4">
+            <div class="col-10 col-lg-4">
                 <div class="card">
                     <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                     <div class="card-body">
@@ -121,7 +121,7 @@ require_once("include/header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-10 col-lg-4">
                 <div class="card">
                     <img src="images/vie_quotidienne/basket.jpg" class="card-img-top" alt="basketball">
                     <div class="card-body">
