@@ -10,25 +10,25 @@ require_once("include/header.php");
 <div class="demarches-conteneur">
     <h2 id="titreDemarches">Mes démarches</h2>
     <div class="row g-0">
-        <div class="demarches col-6 col-lg-3">
+        <div class="demarches col-12 col-sm-6 col-lg-3">
             <h3>Recherche d'emploi</h3>
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
                 <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploi">
             </a>
         </div>
-        <div class="demarches col-6 col-lg-3">
+        <div class="demarches col-12 col-sm-6 col-lg-3">
             <h3>Demande de CNI/passport</h3>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                 <img src="images/demarches/passeport.jpg" alt="passeport">
             </a>
         </div>
-        <div class="demarches col-6 col-lg-3">
+        <div class="demarches col-12 col-sm-6 col-lg-3">
             <h3>Paiement d'une facture</h3>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                 <img src="images/demarches/payer.jpg" alt="Payement">
             </a>
         </div>
-        <div class="demarches col-6 col-lg-3">
+        <div class="demarches col-12 col-sm-6 col-lg-3">
             <h3>Autres démarches</h3>
             <a href="demarches.php#autres-demarches">
                 <img src="images/demarches/autre_demarche.jpg" alt="signature">
@@ -117,7 +117,7 @@ require_once("include/header.php");
                     <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                     <div class="card-body">
                         <h5 class="card-title">Horaires de bus</h5>
-                        <a href="vie_quotidienne.php#se-deplacer">Consulter</a>
+                        <a class="btn btn-primary" href="vie_quotidienne.php#se-deplacer">Consulter</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ require_once("include/header.php");
                     <img src="images/vie_quotidienne/basket.jpg" class="card-img-top" alt="basketball">
                     <div class="card-body">
                         <h5 class="card-title">Carte des gymnases</h5>
-                        <a href="vie_quotidienne.php#gymnases">Consulter</a>
+                        <a class="btn btn-primary" href="vie_quotidienne.php#gymnases">Consulter</a>
                     </div>
                 </div>
             </div>
