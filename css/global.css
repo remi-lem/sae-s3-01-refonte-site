@@ -249,7 +249,7 @@ footer {
 }
 
 /*--------------Petit-écran------------*/
-@media only handheld and (max-width: 699px) {
+@media only handheld and (min-width : 350px) and (max-width: 699px) {
     /*NAVBAR*/
     #topnav_menu {
         display: none;
