@@ -8,8 +8,7 @@ body {
 }
 
 /*--------------Titres-des-pages------------*/
-#vieQuotidienne h1, .accueil h1, #communes h1,
-#titleContenuFAQ, #actualites, .orientation-conteneur h1 {
+#vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1 {
     margin: 5%;
     padding-top: 5%;
     text-align: center;
@@ -413,9 +412,8 @@ footer {
     }
 
     /*TITRES-DES-PAGES*/
-    #vieQuotidienne h1, .accueil h1, #communes h1,
-    #titleContenuFAQ, #actualites, .orientation-conteneur h1 {
-        padding-top: 10%;
-        font-size: 2.5rem;
+    #vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1 {
+        padding-top: 13% !important;
+        font-size: 2.5rem !important;
     }
 }

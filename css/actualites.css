@@ -4,7 +4,6 @@ section {
 }
 
 article {
-    height: 50vh;
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
@@ -17,7 +16,6 @@ article {
 
 article img {
     border-radius: 10px;
-    width: 40%;
 }
 
 article:last-child {
@@ -39,12 +37,11 @@ article:last-child {
 }
 
 /*--------------Petit écran------------*/
-@media only screen and (max-width: 699px) {
+@media (max-width: 1010px) {
     article {
         flex-direction: column;
     }
     article img {
-        border-radius: 10px;
-        width: 100%;
+        max-width: 100%;
     }
 }

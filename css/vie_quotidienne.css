@@ -36,6 +36,8 @@
 }
 
 /*--------------Petit écran------------*/
-@media only screen and (max-width: 699px) {
-    /*TODO : mettre en colonne se déplacer*/
+@media (max-width: 1450px) {
+    #carteGymnases {
+        width: 90%;
+    }
 }

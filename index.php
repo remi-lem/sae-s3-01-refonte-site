@@ -4,31 +4,31 @@ $urlstyle = "css/home.css";
 require_once("include/header.php");
 ?>
 <div class="accueil">
-    <h1>Bienvenue sur le site de la Communauté d'Agglomération Grand Sud Caraïbe !</h1>
+    <h1>Bienvenue sur le site de la Communauté d'Agglomération Grand Sud Caraïbe&nbsp;!</h1>
 </div>
 
 <div class="demarches-conteneur">
     <h1 id="titreDemarches">Mes démarches</h1>
-    <div class="conteneur">
-        <div class="demarches">
+    <div class="row g-0">
+        <div class="demarches col-6 col-lg-3">
             <h2>Recherche d'emploi</h2>
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
                 <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie">
             </a>
         </div>
-        <div class="demarches">
+        <div class="demarches col-6 col-lg-3">
             <h2>Demande de CNI/passport</h2>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                 <img src="images/demarches/passeport.jpg" alt="passeport">
             </a>
         </div>
-        <div class="demarches">
+        <div class="demarches col-6 col-lg-3">
             <h2>Paiement d'une facture</h2>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                 <img src="images/demarches/payer.jpg" alt="Recherche d'emploie">
             </a>
         </div>
-        <div class="demarches">
+        <div class="demarches col-6 col-lg-3">
             <h2>Autres démarches</h2>
             <a href="demarches.php#autres-demarches">
                 <img src="images/demarches/autre_demarche.jpg" alt="passeport">
