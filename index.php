@@ -31,7 +31,7 @@ require_once("include/header.php");
         <div class="demarches col-6 col-lg-3">
             <h3>Autres démarches</h3>
             <a href="demarches.php#autres-demarches">
-                <img src="images/demarches/autre_demarche.jpg" alt="passeport">
+                <img src="images/demarches/autre_demarche.jpg" alt="signature">
             </a>
         </div>
     </div>

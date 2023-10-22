@@ -4,7 +4,7 @@ $urlstyle = "css/actualites.css";
 require_once("include/header.php");
 ?>
 <h1 id="actualites">Dernières actualités</h1>
-<section>
+<div id="lesActus">
     <article id="1">
         <img src="images/actualites/enquete-medicaments.jpg" alt="Campagne Vaccination Papillomavirus">
         <div class="texte">
@@ -64,7 +64,7 @@ require_once("include/header.php");
             <p>Le costume porté par le groupe Kasika, lors de la parade du Mardi Gras, à Basse Terre, est à l’origine d’un bras de fer judiciaire, opposant le groupe Magma à la Fédération organisatrice du concours carnavalesque. Le groupe capesterrien a été désigné Winner 2023, alors que ses membres portaient des tenues retouchées et donc pas neuves. Magma revendique la victoire.</p>
         </div>
     </article>
-</section>
+</div>
 
 <?php
 require_once("include/footer.php");

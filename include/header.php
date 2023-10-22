@@ -31,7 +31,7 @@ global $urlstyle;
             </div>
 
             <!-- Classic Menu -->
-            <nav role="navigation" id="topnav_menu">
+            <nav id="topnav_menu">
                 <ul>
                     <li><a class="topnav_link" href="demarches.php">Mes Démarches</a>
                         <ul>
@@ -61,7 +61,7 @@ global $urlstyle;
             </a>
 
             <!-- Responsive Menu -->
-            <nav role="navigation" id="topnav_responsive_menu">
+            <nav id="topnav_responsive_menu">
                 <ul>
                     <li><a href="demarches.php">Mes Démarches</a></li>
                     <li><a href="actualites.php">Actualités</a></li>
