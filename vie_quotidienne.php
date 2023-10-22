@@ -10,8 +10,8 @@ require_once("include/header.php");
         <h2>Se déplacer</h2>
         <div id="cartes">
             <div class="row justify-content-around">
-                <div class="col-10 col-lg-4">
-                    <div class="card">
+                <div class="col-11 col-lg-4">
+                    <div id="carteVieQuoSeDep1" class="card">
                         <img src="images/vie_quotidienne/bus_phone.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">
                             <h5 class="card-title">Horaires de bus</h5>
@@ -21,7 +21,7 @@ require_once("include/header.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-lg-4">
+                <div class="col-11 col-lg-4">
                     <div class="card">
                         <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                         <div class="card-body">

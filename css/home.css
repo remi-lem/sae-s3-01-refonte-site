@@ -307,4 +307,7 @@
     .horizontalBloc {
         width: 400vw;
     }
+    #carteVieQuoSeDep1 {
+        margin-bottom: 15px;
+    }
 }

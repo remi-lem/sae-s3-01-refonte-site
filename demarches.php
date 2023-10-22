@@ -8,17 +8,23 @@ require_once("include/header.php");
     <h1>Mes démarches</h1>
     <div id="demarches-en-bref">
         <h2>Mes démarches en bref</h2>
-        <div class="conteneur">
+        <div class="conteneur row g-0">
             <div class="demarches">
-                <h2>Recherche de Travail</h2>
+                <h2>Recherche d'emploi</h2>
                 <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
-                    <img src="images/demarches/emploi.png" alt="Recherche d'emploie" width="251" height="201">
+                    <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploi">
                 </a>
             </div>
             <div class="demarches">
-                <h2>Demande de carte d'identité ou de passeport</h2>
+                <h2>Demande de CNI/passport</h2>
                 <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                    <img src="images/demarches/passeport.jpg" alt="passeport" width="320" height="205">
+                    <img src="images/demarches/passeport.jpg" alt="passeport">
+                </a>
+            </div>
+            <div class="demarches">
+                <h2>Paiement d'une facture</h2>
+                <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
+                    <img src="images/demarches/payer.jpg" alt="Payement">
                 </a>
             </div>
         </div>
@@ -26,7 +32,7 @@ require_once("include/header.php");
 </div>
 <div class="abonnement-conteneur" id="autres-demarches">
     <h2>Plus de démarches</h2>
-    <div class="accordion" id="accordionExample" data-bs-theme="dark">
+    <div class="accordion" id="accordionExample" data-bs-theme="light">
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"

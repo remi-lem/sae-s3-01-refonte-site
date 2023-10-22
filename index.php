@@ -13,7 +13,7 @@ require_once("include/header.php");
         <div class="demarches col-6 col-lg-3">
             <h2>Recherche d'emploi</h2>
             <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
-                <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploie">
+                <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploi">
             </a>
         </div>
         <div class="demarches col-6 col-lg-3">
@@ -25,7 +25,7 @@ require_once("include/header.php");
         <div class="demarches col-6 col-lg-3">
             <h2>Paiement d'une facture</h2>
             <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
-                <img src="images/demarches/payer.jpg" alt="Recherche d'emploie">
+                <img src="images/demarches/payer.jpg" alt="Payement">
             </a>
         </div>
         <div class="demarches col-6 col-lg-3">
@@ -113,7 +113,7 @@ require_once("include/header.php");
     <div id="cartes">
         <div class="row justify-content-around">
             <div class="col-10 col-lg-4">
-                <div class="card">
+                <div id="carteVieQuoSeDep1" class="card">
                     <img src="images/vie_quotidienne/bus.jpg" class="card-img-top" alt="Autobus">
                     <div class="card-body">
                         <h5 class="card-title">Horaires de bus</h5>

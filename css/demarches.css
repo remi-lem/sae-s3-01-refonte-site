@@ -1,17 +1,11 @@
-.conteneur {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .demarches {
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 50px;
 }
 
 .orientation-conteneur h2 {
     color: white;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .demarches h2{
@@ -24,6 +18,7 @@
 }
 
 .demarches img {
+    width: 320px;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.2s;
@@ -48,4 +43,10 @@
 
 .abonnement-conteneur p {
     margin-bottom: 10px;
+}
+
+@media (max-width: 1110px) {
+    .abonnement-conteneur {
+        margin: 0;
+    }
 }
