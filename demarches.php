@@ -9,19 +9,19 @@ require_once("include/header.php");
     <div id="demarches-en-bref">
         <h2>Mes démarches en bref</h2>
         <div class="conteneur row g-0">
-            <div class="demarches">
+            <div class="demarches col-12 col-md-6 col-lg-4">
                 <h2>Recherche d'emploi</h2>
                 <a href="https://www.emploi-territorial.fr/emploi-mobilite/?search-col=92843" target="_blank">
                     <img src="images/demarches/emploi.jpeg" alt="Recherche d'emploi">
                 </a>
             </div>
-            <div class="demarches">
+            <div class="demarches col-12 col-md-6 col-lg-4">
                 <h2>Demande de CNI/passport</h2>
                 <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                     <img src="images/demarches/passeport.jpg" alt="passeport">
                 </a>
             </div>
-            <div class="demarches">
+            <div class="demarches col-12 col-md-6 col-lg-4">
                 <h2>Paiement d'une facture</h2>
                 <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                     <img src="images/demarches/payer.jpg" alt="Payement">
