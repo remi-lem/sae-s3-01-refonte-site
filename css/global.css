@@ -298,6 +298,7 @@ footer {
         white-space: nowrap;
         color: white;
         text-decoration: none;
+        font-size: 2.5rem;
     }
 
     #topnav_responsive_menu.open {
@@ -308,10 +309,6 @@ footer {
     #topnav_responsive_menu ul li ul {
         display: inline-flex;
         flex-direction: column;
-    }
-
-    #topnav_responsive_menu ul li ul li {
-
     }
 
     /*HAMBURGER-ICON*/

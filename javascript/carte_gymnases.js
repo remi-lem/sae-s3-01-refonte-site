@@ -1,10 +1,10 @@
-var map = L.map('carteGymnases').setView([16.0191, -61.6572], 11);
+let map = L.map('carteGymnases').setView([16.0191, -61.6572], 11);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var customOptions = {'maxWidth': '200','font': 'verdana','className' : 'custom'}
+const customOptions = {'maxWidth': '200','font': 'verdana','className' : 'custom'}
 
 
 L.marker([16.05458000,-61.76700000]).addTo(map).bindPopup("<b>Complexe Sportif du Collège Vieux Habitants",customOptions);
