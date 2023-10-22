@@ -246,12 +246,14 @@
 }
 
 .communes p {
-    > a {
-        font-size: 1.8rem;
-        color: white;
-    }
     margin: 2%;
 }
+
+.communes p a {
+    font-size: 1.8rem;
+    color: white;
+}
+
 
 /*------------Vie-Quotidienne----------*/
 .vieQuotidienne {
