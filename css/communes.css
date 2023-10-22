@@ -29,5 +29,6 @@
 @media (max-width: 1000px) {
     #carteCommunes {
         width: 90%;
+        height: 80vh;
     }
 }

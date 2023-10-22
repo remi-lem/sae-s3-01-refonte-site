@@ -209,6 +209,7 @@ footer {
 #divIcones {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #iconesContact {

@@ -39,6 +39,7 @@
 @media (max-width: 1450px) {
     #carteGymnases {
         width: 90%;
+        height: 500px;
     }
     #carteVieQuoSeDep1 {
         margin-bottom: 15px;
