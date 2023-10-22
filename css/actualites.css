@@ -39,7 +39,7 @@ article:last-child {
 }
 
 /*--------------Petit écran------------*/
-@media only handheld and (max-width: 699px) {
+@media only screen and (max-width: 699px) {
     article {
         flex-direction: column;
     }

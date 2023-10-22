@@ -24,7 +24,7 @@
     width: 45%;
 }
 
-@media only handheld and (max-width: 699px) {
+@media only screen and (max-width: 699px) {
     #titleFormContactFAQ, #titleFAQ {
         font-size: 1.5rem;
         padding: 1rem;
