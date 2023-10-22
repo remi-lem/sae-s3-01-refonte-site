@@ -215,6 +215,7 @@ footer {
 #iconesContact {
     display: flex;
     flex-direction: row;
+    margin-bottom: 0.4rem;
 }
 
 #iconesContact img {
