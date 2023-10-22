@@ -20,7 +20,7 @@ body {
 /*----------Barre-de-navigation----------*/
 .topnav {
     width: 100%;
-    height: 15vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -249,7 +249,7 @@ footer {
 }
 
 /*--------------Petit-écran------------*/
-@media (max-width: 699px) {
+@media only screen and (max-width: 699px) {
     /*NAVBAR*/
     #topnav_menu {
         display: none;

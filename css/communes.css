@@ -26,7 +26,7 @@
     color: #777;
 }
 
-@media (max-width: 699px) {
+@media only screen and (max-width: 699px) {
     #carteCommunes {
         width: 90%;
     }
