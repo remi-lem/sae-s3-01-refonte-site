@@ -42,9 +42,10 @@ global $urlstyle;
                     <li><a class="topnav_link" href="communes.php">Communes</a></li>
                     <li>
                         <a class="topnav_link" href="vie_quotidienne.php">Vie Quotidienne</a>
-                        <ul><!--TODO : ??-->
+                        <ul>
                             <li><a class="topnav_link_link" href="vie_quotidienne.php#se-deplacer">Transports</a></li>
                             <li><a class="topnav_link_link" href="vie_quotidienne.php#gymnases">Sports</a></li>
+                            <!--TODO : rajouter culture et loisir-->
                         </ul>
                     </li>
                     <li><a class="topnav_link" href="foire_question.php">FAQ</a></li>

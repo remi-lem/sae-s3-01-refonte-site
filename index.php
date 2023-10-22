@@ -30,7 +30,7 @@ require_once("include/header.php");
         </div>
         <div class="demarches">
             <h2>Autres démarches</h2>
-            <a href="demarches.php">
+            <a href="demarches.php#autres-demarches">
                 <img src="images/demarches/autre_demarche.jpg" alt="passeport">
             </a>
         </div>
@@ -93,9 +93,8 @@ require_once("include/header.php");
     </div>
 </div>
 
-<div id="communes">
-    <h1>Communes membres</h1>
-    <p>Découvrez sur notre carte interactive ci-dessous des informations complémentaires sur nos communes membres.</p>
+<div class="communes">
+    <h1 id="titreCommunes">Communes membres</h1>
     <div id="flexAccueilCommunes">
         <figure>
             <img src="images/accueil/paysage.jpg" alt="paysage">
@@ -109,8 +108,8 @@ require_once("include/header.php");
     <p><a href="communes.php">Voir les communes</a></p>
 </div>
 
-<div id="vieQuotidienne">
-    <h1>Vie quotidienne</h1>
+<div class="vieQuotidienne">
+    <h1 id="titreVieQuo">Vie quotidienne</h1>
     <div id="cartes">
         <div class="row justify-content-around">
             <div class="col-4">

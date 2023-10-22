@@ -11,19 +11,26 @@
     padding-top: 10%;
     font-size: 2rem;
 }
+/*TITRES-CATÉGORIES*/
+#titreActus, #titreDemarches, #titreCommunes, #titreVieQuo {
+    margin: 2%;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
 
 /*--------------Démarches------------*/
 .demarches-conteneur {
+    display: flex;
+    flex-direction: column;
     padding-block: 2%;
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 90vh;
 }
 
 #titreDemarches {
-    margin: 5%;
-    text-align: center;
-    font-size: 4rem;
-    color: black;
+    color: black !important;
 }
 
 .conteneur {
@@ -96,12 +103,7 @@
 }
 
 #titreActus {
-    margin-inline: 2%;
-    margin-top: 2%;
     margin-bottom: 12%;
-    text-align: center;
-    font-size: 4rem;
-    color: white;
 }
 
 .conteneur-actus {
@@ -191,7 +193,6 @@
     background-image: url("../images/actualites/mardi-gras-gagnant.jpg");
 }
 
-
 .contenu {
     position: relative;
     display: flex;
@@ -216,6 +217,7 @@
     font-style: italic;
     line-height: 1.35;
 }
+
 @media (hover: hover) and (min-width: 600px) {
     .carte:after {
         transform: translateY(0);
@@ -251,17 +253,15 @@
 }
 
 /*--------------Communes------------*/
-#communes {
-    width: 100%;
-    padding: 2%;
+.communes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+    padding-block: 2%;
     background-color: #279335;
     text-align: center;
     color: white;
-}
-
-#communes h1 {
-    margin: 2%;
-    font-size: 4rem;
 }
 
 #flexAccueilCommunes {
@@ -275,7 +275,7 @@
     height: 90%;
 }
 
-#communes p {
+.communes p {
     > a {
         font-size: 1rem;
         color: white;
@@ -284,13 +284,14 @@
 }
 
 /*------------Vie-Quotidienne----------*/
-#vieQuotidienne {
+.vieQuotidienne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 100%;
     height: 90vh;
     padding: 2%;
     background-color: #0a58ca;
-    text-align: center;
-    color: white;
 }
 
 /*--------------Petit-écran------------*/
@@ -306,7 +307,17 @@
     }
 
     /*COMMUNES*/
+    .communes {
+        display: block;
+        height: fit-content;
+    }
+
     #flexAccueilCommunes {
         flex-wrap: wrap;
+    }
+
+    #flexAccueilCommunes figure img {
+        width: 70%;
+        height: 80%;
     }
 }
