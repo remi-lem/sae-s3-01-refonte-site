@@ -8,7 +8,7 @@ body {
 }
 
 /*--------------Titres-des-pages------------*/
-#vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, #titre-toutes-demarches {
+#vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1, #titreResults, #titre-toutes-demarches {
     margin: 5%;
     padding-top: 5%;
     text-align: center;
@@ -34,8 +34,8 @@ body {
 }
 
 .nav-gauche img {
-    width: 40%;
-    height: 20%;
+    width: 70%;
+    height: 1%;
     margin-left: 5%;
 }
 
@@ -411,7 +411,7 @@ footer {
     }
 
     /*TITRES-DES-PAGES*/
-    #vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1 {
+    #vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1, #titreResults, #titre-toutes-demarches {
         padding-top: 10vh !important;
         font-size: 2.5rem !important;
     }

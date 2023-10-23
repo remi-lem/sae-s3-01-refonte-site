@@ -1,0 +1,8 @@
+#resultats {
+    background-color: blue;
+    margin: 5%;
+}
+
+#resultats h2, p {
+    color: white;
+}

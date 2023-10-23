@@ -37,6 +37,10 @@ article:last-child {
     text-align: justify;
 }
 
+#divBtnResults {
+    text-align: center;
+}
+
 /*--------------Petit écran------------*/
 @media (max-width: 1010px) {
     article {
@@ -44,5 +48,8 @@ article:last-child {
     }
     article img {
         max-width: 100%;
+    }
+    #divBtnResults {
+        text-align: start;
     }
 }

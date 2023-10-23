@@ -10,8 +10,8 @@ require_once("include/header.php");
         <div class="texte">
             <h2>Les résultats de l'enquête médicamenteuse sont enfin là !</h2>
             <p>Dans le contexte actuel de pénurie et de difficultés d’approvisionnement des médicaments, suite aux consignes de vigilance de l’Agence Régionale de Santé (ARS), la communauté d’agglomération s'est donné pour mission de mettre au point un dispositif de remontée d’information sur son territoire, les résultats sont disponibles à partir de cette semaine.</p>
-            <div class="text-center">
-                <a href="#" class="btn btn-primary">Voir</a>
+            <div id="divBtnResults">
+                <a class="btn btn-primary" href="resultats.php">Voir</a>
             </div>
         </div>
     </article>
