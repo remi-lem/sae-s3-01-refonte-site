@@ -105,7 +105,7 @@ require_once("include/header.php");
             <figcaption>Réunion au siège de la CAGSC</figcaption>
         </figure>
     </div>
-    <p><a href="communes.php">Voir les communes</a></p>
+    <p><a class="btn btn-primary" href="communes.php">Voir les communes</a></p>
 </div>
 
 <div class="vieQuotidienne">
