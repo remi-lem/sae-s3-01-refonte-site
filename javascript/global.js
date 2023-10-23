@@ -14,7 +14,7 @@ function showResponsiveMenu() {
 }
 
 document.getElementById("topnav_hamburger_icon").addEventListener("click", (event) => {
-    showResponsiveMenu();
+        showResponsiveMenu();
 });
 
 
@@ -23,7 +23,9 @@ window.addEventListener('scroll',function(){
     const scrollVersHaut = document.documentElement.scrollTop;
 
     if(scrollVersHaut > dernierScroll){
-        document.querySelector('#topnav').style.top='-15vh';
+        if (!(document.getElementById("topnav_hamburger_icon").classList.contains("open"))) {
+            document.querySelector('#topnav').style.top = '-15vh';
+        }
     }
     else{
         document.querySelector('#topnav').style.top='0';
