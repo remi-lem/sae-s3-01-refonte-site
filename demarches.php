@@ -16,7 +16,7 @@ require_once("include/header.php");
                 </a>
             </div>
             <div class="demarches col-12 col-md-6 col-lg-4">
-                <h2>Demande de CNI/passport</h2>
+                <h2>Demande de CNI/passeport</h2>
                 <a href="#" onclick="alert('Fonctionnalité disponible prochainement');"><!--TODO-->
                     <img src="images/demarches/passeport.jpg" alt="passeport">
                 </a>
