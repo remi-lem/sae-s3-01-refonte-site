@@ -8,7 +8,7 @@ body {
 }
 
 /*--------------Titres-des-pages------------*/
-#vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, .orientation-conteneur h1 {
+#vieQuotidienne h1, .accueil h1, #communes h1, #titleContenuFAQ, #actualites, #titre-toutes-demarches {
     margin: 5%;
     padding-top: 5%;
     text-align: center;
