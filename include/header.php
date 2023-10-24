@@ -21,12 +21,11 @@ global $urlstyle;
     <link rel="icon" href="images/logo_favicon.jpg">
     <script src="javascript/global.js" defer></script>
 
-    <!--bootstrap, leaflet et jquery-->
+    <!--bootstrap et leaflet-->
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css">
     <script src="node_modules/leaflet/dist/leaflet.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
 </head>
 <body>
     <div id="root">
