@@ -22,7 +22,8 @@ global $urlstyle;
     <script src="javascript/global.js" defer></script>
 
     <!--bootstrap, leaflet et jquery-->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css">
     <script src="node_modules/leaflet/dist/leaflet.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
